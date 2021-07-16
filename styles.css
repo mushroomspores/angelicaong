@@ -315,6 +315,12 @@ a:hover#contacttext3 {color: grey;}
 .centretitle {text-align: center;}
 
 .photofigures {
+  cursor: pointer;
+  transition: 0.1s;
+}
+.photofigures:hover {opacity: 0.7;}
+
+.photofigures {
   width: 45vh;
   height: 45vh;
   float: left;
@@ -381,13 +387,13 @@ figure.photofigures a:hover {color: grey;}
   }
   }
       /* Style the Image Used to Trigger the Modal */
-    .tnmn-tr {
+    .ph-tr {
       cursor: pointer;
       transition: 0.3s;
     }
-    .tnmn-tr:hover {opacity: 0.7;}
+    .ph-tr:hover {opacity: 0.7;}
     /* The Modal (background) */
-    .tnmn-m {
+    .ph-m {
       display: none; /* Hidden by default */
       position: fixed; /* Stay in place */
       z-index: 1; /* Sit on top */
@@ -401,7 +407,7 @@ figure.photofigures a:hover {color: grey;}
       background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
     }
     /* Modal Content (Image) */
-    .tnmn-mc {
+    .ph-mc {
       margin: auto;
       display: block;
       height: 80vh;
@@ -409,7 +415,7 @@ figure.photofigures a:hover {color: grey;}
       object-fit: contain;
     }
     /* Add Animation */
-    .tnmn-mc, #caption {
+    .ph-mc, #caption {
       -webkit-animation-name: zoom;
       -webkit-animation-duration: 0.6s;
       animation-name: zoom;
@@ -445,6 +451,41 @@ figure.photofigures a:hover {color: grey;}
         width: 100%;
       }
     }
+
+.row-vn {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+/* Create six equal columns that sits next to each other */
+.column-vn {
+flex: 16.66%;
+max-width: 16.66%;
+padding: 0 4px;
+}
+
+.column-vn img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+.column-vn {
+flex: 33.32%;
+max-width: 33.32%;
+}
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 600px) {
+.column-vn {
+flex: 50%;
+max-width: 50%;
+}
+}
 
 .bookfigures {
   width: auto;

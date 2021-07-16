@@ -1,3 +1,4 @@
+// js script for ph-tsukanomano.html
 // Get the modal
 var tnmn5m = document.getElementById("tnmn-5-m");
 // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -144,4 +145,17 @@ tnmn12tr.onclick = function(){
 var tnmn12c = document.getElementById("tnmn-12-c");
 tnmn12c.onclick = function() {
   tnmn12m.style.display = "none";
+}
+
+//js script for ph-veneer.html
+var vn1m = document.getElementById("vn-1-m");
+var vn1tr = document.getElementById("vn-1-tr");
+var vn1mc = document.getElementById("vn-1-mc");
+vn1tr.onclick = function(){
+  vn1m.style.display = "block";
+  vn1mc.src = this.src;
+}
+var vn1c = document.getElementById("vn-1-c");
+vn1c.onclick = function() {
+  vn1m.style.display = "none";
 }
