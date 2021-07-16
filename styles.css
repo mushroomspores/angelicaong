@@ -354,6 +354,18 @@ figure.photofigures a {
 }
 figure.photofigures a:hover {color: grey;}
 
+  .tnmn2021imgs {
+    width: auto;
+    height: 40vh;
+    margin: 0.5em;
+  }
+  .tnmn2021imgs-s {
+    width: auto;
+    height: 35vh;
+    margin: 0.5em;
+    vertical-align: top;
+  }
+
 .bookfigures {
   width: auto;
   height: 45vh;
