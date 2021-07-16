@@ -1,18 +1,27 @@
 // Get the modal
 var tnmn5m = document.getElementById("tnmn-5-m");
-
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var tnmn5tr = document.getElementById("tnmn-5-tr");
-var tnmn5img = document.getElementById("tnmn-5-img");
+var tnmn5mc = document.getElementById("tnmn-5-mc");
 tnmn5tr.onclick = function(){
   tnmn5m.style.display = "block";
-  tnmn5img.src = this.src;
+  tnmn5mc.src = this.src;
+}
+// Get the <span> element that closes the modal
+var tnmn5c = document.getElementById("tnmn-5-c");
+// When the user clicks on <span> (x), close the modal
+tnmn5c.onclick = function() {
+  tnmn5m.style.display = "none";
 }
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  tnmn5m.style.display = "none";
+var tnmn2m = document.getElementById("tnmn-2-m");
+var tnmn2tr = document.getElementById("tnmn-2-tr");
+var tnmn5mc = document.getElementById("tnmn-2-mc");
+tnmn2tr.onclick = function(){
+  tnmn2m.style.display = "block";
+  tnmn2mc.src = this.src;
+}
+var tnmn2c = document.getElementById("tnmn-2-c");
+tnmn2c.onclick = function() {
+  tnmn2m.style.display = "none";
 }
