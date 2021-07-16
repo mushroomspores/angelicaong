@@ -37,3 +37,15 @@ var tnmn3c = document.getElementById("tnmn-3-c");
 tnmn3c.onclick = function() {
   tnmn3m.style.display = "none";
 }
+
+var tnmn4m = document.getElementById("tnmn-4-m");
+var tnmn4tr = document.getElementById("tnmn-4-tr");
+var tnmn4mc = document.getElementById("tnmn-4-mc");
+tnmn4tr.onclick = function(){
+  tnmn4m.style.display = "block";
+  tnmn4mc.src = this.src;
+}
+var tnmn4c = document.getElementById("tnmn-4-c");
+tnmn4c.onclick = function() {
+  tnmn4m.style.display = "none";
+}
