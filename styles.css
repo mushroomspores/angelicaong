@@ -312,7 +312,8 @@ a:hover#contacttext3 {color: grey;}
 #dropdownlist {
   display: none;
 }
-#photography {text-align: center;}
+.centretitle {text-align: center;}
+
 .photofigures {
   width: 45vh;
   height: 45vh;
@@ -329,7 +330,7 @@ a:hover#contacttext3 {color: grey;}
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   display: table;
-  border: 0px solid grey;
+  border: 1px solid grey;
 }
 .photoimages {
   width: auto;
