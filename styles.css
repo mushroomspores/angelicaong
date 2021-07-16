@@ -213,7 +213,7 @@ a:hover#contacttext3 {color: grey;}
   float: left;
   padding-left: 3%;
   padding-right: 3%;
-  border: 1px solid grey;
+  border: 0px solid grey;
 }
 
 .row::after {
@@ -330,7 +330,7 @@ a:hover#contacttext3 {color: grey;}
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   display: table;
-  border: 1px solid grey;
+  border: 0px solid grey;
 }
 .photoimages {
   width: auto;
@@ -354,16 +354,31 @@ figure.photofigures a {
 }
 figure.photofigures a:hover {color: grey;}
 
-  .tnmn2021imgs {
-    width: auto;
-    height: 40vh;
-    margin: 0.5em;
+  .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
   }
-  .tnmn2021imgs-s {
-    width: auto;
-    height: 35vh;
-    margin: 0.5em;
-    vertical-align: top;
+
+  /* Create four equal columns that sits next to each other */
+  .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  }
+
+  .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
   }
 
 .bookfigures {
