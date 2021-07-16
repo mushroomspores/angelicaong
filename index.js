@@ -16,7 +16,7 @@ tnmn5c.onclick = function() {
 
 var tnmn2m = document.getElementById("tnmn-2-m");
 var tnmn2tr = document.getElementById("tnmn-2-tr");
-var tnmn5mc = document.getElementById("tnmn-2-mc");
+var tnmn2mc = document.getElementById("tnmn-2-mc");
 tnmn2tr.onclick = function(){
   tnmn2m.style.display = "block";
   tnmn2mc.src = this.src;
@@ -24,4 +24,16 @@ tnmn2tr.onclick = function(){
 var tnmn2c = document.getElementById("tnmn-2-c");
 tnmn2c.onclick = function() {
   tnmn2m.style.display = "none";
+}
+
+var tnmn3m = document.getElementById("tnmn-3-m");
+var tnmn3tr = document.getElementById("tnmn-3-tr");
+var tnmn3mc = document.getElementById("tnmn-3-mc");
+tnmn3tr.onclick = function(){
+  tnmn3m.style.display = "block";
+  tnmn3mc.src = this.src;
+}
+var tnmn3c = document.getElementById("tnmn-3-c");
+tnmn3c.onclick = function() {
+  tnmn3m.style.display = "none";
 }
