@@ -236,13 +236,10 @@ a:hover#contacttext3 {color: grey;}
   .col-es-10 {width: 83.33%;}
   .col-es-11 {width: 91.66%;}
   .col-es-12 {width: 100%;}
-  #break1 {
-    display: none;
-  }
-  .row5 {
-    display: none;
-  }
-
+  #break1 {display: none;}
+  .row5 {display: none;}
+  #spacer2 {display: none;}
+  .desktop-spacer {display: none;}
 }
 
 @media only screen and (min-width: 601px) {
