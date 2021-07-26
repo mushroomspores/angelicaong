@@ -333,7 +333,7 @@ a:hover#contacttext3 {color: grey;}
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   display: table;
-  border: 0px solid grey;
+  border: 1px solid grey;
 }
 .photoimages {
   width: auto;
@@ -349,7 +349,7 @@ figcaption.photofigcaptions {
   margin-bottom: 1.5em;
   padding-right: 0em;
   padding-top: 0em;
-  border: 0px solid grey;
+  border: 1px solid grey;
 }
 figure.photofigures a {
   text-decoration: none;
