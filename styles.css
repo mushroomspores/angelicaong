@@ -2,8 +2,9 @@ html {
   background-color: #F9F8F2;
 }
 
+/* start of size adjustments for fonts and header */
 /* phone screen size */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #header {
     color: black;
     font-size: 5vw;
@@ -67,8 +68,70 @@ html {
   }
 }
 
-/* desktop size */
-@media only screen and (min-width: 601px) {
+/* mini laptop size */
+@media only screen and (min-width: 701px) {
+  #header {
+    color: black;
+    font-size: 3vw;
+    font-family: 'Cormorant', serif;
+    font-weight: 400;
+    padding: 0;
+  }
+  small {
+    color: grey;
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  }
+   h2 {
+    color: black;
+    font-size: 2.5vw;
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    line-height: 1.0;
+  }
+  p {
+    color: grey;
+    font-size: 1.7vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+  }
+  li {
+    display: inline;
+    float: left;
+  }
+  li a, .dropbtn {
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    text-align: left;
+    padding-right: 0.5vw;
+  }
+  li.dropdown {
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #F9F8F2;
+  }
+  .dropdown-content a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* laptop size */
+@media only screen and (min-width: 1001px) {
   #header {
     color: black;
     font-size: 2.3vw;
@@ -128,6 +191,7 @@ html {
     text-align: left;
   }
 }
+/* end of size adjustments for fonts and header */
 .dropbtn2 {
   display: inline-block;
   text-decoration: none;
@@ -222,7 +286,7 @@ a:hover#contacttext3 {color: grey;}
   display: table;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   /* For extra small devices like phones: */
   .col-es-1 {width: 8.33%;}
   .col-es-2 {width: 16.66%;}
@@ -237,12 +301,12 @@ a:hover#contacttext3 {color: grey;}
   .col-es-11 {width: 91.66%;}
   .col-es-12 {width: 100%;}
   #break1 {display: none;}
-  .row5 {display: none;}
+  #spacer {display: none;}
   #spacer2 {display: none;}
   .desktop-spacer {display: none;}
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 701px) {
   /* For small devices like tablets: */
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
@@ -311,49 +375,85 @@ a:hover#contacttext3 {color: grey;}
 }
 .centretitle {text-align: center;}
 
-.photofigures {
+div.gallery {
+  border: 0px solid grey;
+}
+
+div.gallery {
   cursor: pointer;
   transition: 0.1s;
 }
-.photofigures:hover {opacity: 0.7;}
+div.gallery:hover {opacity: 0.7;}
 
-.photofigures {
-  width: 45vh;
-  height: 45vh;
-  float: left;
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 1em;
   text-align: center;
-  text-indent: 0;
-  margin-top: 1.5em;
-  margin-right: 0;
-  margin-left: 0;
-  margin-bottom: 0;
-  padding-right: 0em;
   color: black;
   font-size: 1vw;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  display: table;
-  border: 1px solid grey;
 }
+
+div.desc a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding-left: 1em;
+  padding-right: 1em;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  div.desc {
+    padding: 1em;
+    text-align: center;
+    color: black;
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 100%;
+  }
+  div.desc {
+    padding: 1em;
+    text-align: center;
+    color: black;
+    font-size: 2.5vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .photoimages {
   width: auto;
   height: 40vh;
   margin-top: 1.5em;
-}
-figcaption.photofigcaptions {
-  display: table-caption;
-  caption-side: bottom;
-  margin-top: 0;
-  margin-right: 0;
-  margin-left: 0;
-  margin-bottom: 1.5em;
-  padding-right: 0em;
-  padding-top: 0em;
-  border: 1px solid grey;
-}
-figure.photofigures a {
-  text-decoration: none;
-  color: black;
 }
 
   .row {
