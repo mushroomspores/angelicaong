@@ -467,9 +467,33 @@ vertical-align: middle;
 width: 100%;
 }
 
+.row-bdst {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column-bdst {
+flex: 33.33%;
+max-width: 33.33%;
+padding: 0 12px;
+padding-bottom: 3em;
+}
+
+.column-bdst img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 1000px) {
 .column-vn {
+flex: 33.32%;
+max-width: 33.32%;
+}
+.column-bdst {
 flex: 33.32%;
 max-width: 33.32%;
 }
@@ -481,9 +505,11 @@ max-width: 33.32%;
 flex: 50%;
 max-width: 50%;
 }
+.column-bdst {
+flex: 50%;
+max-width: 50%;
 }
-
-
+}
 
 .bookfigures {
   width: auto;
