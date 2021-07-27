@@ -374,6 +374,13 @@ a:hover#contacttext3 {color: grey;}
   display: none;
 }
 .centretitle {text-align: center;}
+#asoad-1-tr {
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
 div.gallery {
   border: 0px solid grey;
@@ -438,7 +445,7 @@ div.desc a {
     padding: 1em;
     text-align: center;
     color: black;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
   }
@@ -600,8 +607,15 @@ flex: 33.32%;
 max-width: 33.32%;
 }
 .column-bdst {
-flex: 33.32%;
-max-width: 33.32%;
+flex: 50%;
+max-width: 50%;
+}
+#asoad-1-tr {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 }
 
@@ -612,8 +626,15 @@ flex: 50%;
 max-width: 50%;
 }
 .column-bdst {
-flex: 50%;
-max-width: 50%;
+flex: 100%;
+max-width: 100%;
+}
+#asoad-1-tr {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 }
 
