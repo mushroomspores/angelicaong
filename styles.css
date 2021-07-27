@@ -456,6 +456,12 @@ div.desc a {
   margin-top: 1.5em;
 }
 
+.installationimages {
+  width: auto;
+  height: 40vh;
+  margin-top: 1.5em;
+}
+
   .row {
   display: flex;
   flex-wrap: wrap;
