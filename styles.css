@@ -381,7 +381,7 @@ a:hover#contacttext3 {color: grey;}
   margin-right: auto;
   display: block;
 }
-#iot-1-tr {
+#iot-1-tr, #ihc-macl-1-tr {
   width: 50%;
   height: auto;
   margin-left: auto;
@@ -625,7 +625,7 @@ max-width: 50%;
   margin-right: auto;
   display: block;
 }
-#iot-1-tr {
+#iot-1-tr, #ihc-macl-1-tr {
   width: 70%;
   height: auto;
   margin-left: auto;
@@ -644,7 +644,7 @@ max-width: 50%;
 flex: 100%;
 max-width: 100%;
 }
-#asoad-1-tr, #iot-1-tr {
+#asoad-1-tr, #iot-1-tr, #ihc-macl-1-tr {
   width: 100%;
   height: auto;
   margin-left: auto;
