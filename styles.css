@@ -423,15 +423,25 @@ div.desc a {
 }
 
 .responsive {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
   float: left;
   width: 24.99999%;
+}
+.responsive-video {
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  float: left;
+  width: 49.99999%;
 }
 
 @media only screen and (max-width: 1000px) {
   .responsive {
     width: 49.99999%;
+    margin: 6px 0;
+  }
+  .responsive-video {
+    width: 100%;
     margin: 6px 0;
   }
   div.desc {
@@ -469,8 +479,12 @@ div.desc a {
   height: 40vh;
   margin-top: 1.5em;
 }
-
 .installationimages {
+  width: auto;
+  height: 40vh;
+  margin-top: 1.5em;
+}
+.videoimages {
   width: auto;
   height: 40vh;
   margin-top: 1.5em;
