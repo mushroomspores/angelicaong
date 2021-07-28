@@ -14,6 +14,9 @@ var rv1c = document.getElementById("rv-1-c");
 rv1c.onclick = function() {
   rv1m.style.display = "none";
 }
+rv1m.onclick = function() {
+  rv1m.style.display = "none";
+}
 
 var rv2m = document.getElementById("rv-2-m");
 var rv2tr = document.getElementById("rv-2-tr");
@@ -24,6 +27,9 @@ rv2tr.onclick = function(){
 }
 var rv2c = document.getElementById("rv-2-c");
 rv2c.onclick = function() {
+  rv2m.style.display = "none";
+}
+rv2m.onclick = function() {
   rv2m.style.display = "none";
 }
 
@@ -38,6 +44,9 @@ var rv3c = document.getElementById("rv-3-c");
 rv3c.onclick = function() {
   rv3m.style.display = "none";
 }
+rv3m.onclick = function() {
+  rv3m.style.display = "none";
+}
 
 var rv4m = document.getElementById("rv-4-m");
 var rv4tr = document.getElementById("rv-4-tr");
@@ -48,6 +57,9 @@ rv4tr.onclick = function(){
 }
 var rv4c = document.getElementById("rv-4-c");
 rv4c.onclick = function() {
+  rv4m.style.display = "none";
+}
+rv4m.onclick = function() {
   rv4m.style.display = "none";
 }
 
@@ -62,6 +74,9 @@ var rv5c = document.getElementById("rv-5-c");
 rv5c.onclick = function() {
   rv5m.style.display = "none";
 }
+rv5m.onclick = function() {
+  rv5m.style.display = "none";
+}
 
 var rv6m = document.getElementById("rv-6-m");
 var rv6tr = document.getElementById("rv-6-tr");
@@ -72,6 +87,9 @@ rv6tr.onclick = function(){
 }
 var rv6c = document.getElementById("rv-6-c");
 rv6c.onclick = function() {
+  rv6m.style.display = "none";
+}
+rv6m.onclick = function() {
   rv6m.style.display = "none";
 }
 
@@ -86,6 +104,9 @@ var rv7c = document.getElementById("rv-7-c");
 rv7c.onclick = function() {
   rv7m.style.display = "none";
 }
+rv7m.onclick = function() {
+  rv7m.style.display = "none";
+}
 
 var rv8m = document.getElementById("rv-8-m");
 var rv8tr = document.getElementById("rv-8-tr");
@@ -96,6 +117,9 @@ rv8tr.onclick = function(){
 }
 var rv8c = document.getElementById("rv-8-c");
 rv8c.onclick = function() {
+  rv8m.style.display = "none";
+}
+rv8m.onclick = function() {
   rv8m.style.display = "none";
 }
 
@@ -110,6 +134,9 @@ var rv9c = document.getElementById("rv-9-c");
 rv9c.onclick = function() {
   rv9m.style.display = "none";
 }
+rv9m.onclick = function() {
+  rv9m.style.display = "none";
+}
 
 var rv10m = document.getElementById("rv-10-m");
 var rv10tr = document.getElementById("rv-10-tr");
@@ -120,6 +147,9 @@ rv10tr.onclick = function(){
 }
 var rv10c = document.getElementById("rv-10-c");
 rv10c.onclick = function() {
+  rv10m.style.display = "none";
+}
+rv10m.onclick = function() {
   rv10m.style.display = "none";
 }
 
@@ -134,6 +164,9 @@ var rv11c = document.getElementById("rv-11-c");
 rv11c.onclick = function() {
   rv11m.style.display = "none";
 }
+rv11m.onclick = function() {
+  rv11m.style.display = "none";
+}
 
 var rv12m = document.getElementById("rv-12-m");
 var rv12tr = document.getElementById("rv-12-tr");
@@ -144,6 +177,9 @@ rv12tr.onclick = function(){
 }
 var rv12c = document.getElementById("rv-12-c");
 rv12c.onclick = function() {
+  rv12m.style.display = "none";
+}
+rv12m.onclick = function() {
   rv12m.style.display = "none";
 }
 
@@ -158,6 +194,9 @@ var rv13c = document.getElementById("rv-13-c");
 rv13c.onclick = function() {
   rv13m.style.display = "none";
 }
+rv13m.onclick = function() {
+  rv13m.style.display = "none";
+}
 
 var rv14m = document.getElementById("rv-14-m");
 var rv14tr = document.getElementById("rv-14-tr");
@@ -168,6 +207,9 @@ rv14tr.onclick = function(){
 }
 var rv14c = document.getElementById("rv-14-c");
 rv14c.onclick = function() {
+  rv14m.style.display = "none";
+}
+rv14m.onclick = function() {
   rv14m.style.display = "none";
 }
 
@@ -182,6 +224,9 @@ var rv15c = document.getElementById("rv-15-c");
 rv15c.onclick = function() {
   rv15m.style.display = "none";
 }
+rv15m.onclick = function() {
+  rv15m.style.display = "none";
+}
 
 var rv16m = document.getElementById("rv-16-m");
 var rv16tr = document.getElementById("rv-16-tr");
@@ -192,5 +237,8 @@ rv16tr.onclick = function(){
 }
 var rv16c = document.getElementById("rv-16-c");
 rv16c.onclick = function() {
+  rv16m.style.display = "none";
+}
+rv16m.onclick = function() {
   rv16m.style.display = "none";
 }

@@ -14,6 +14,11 @@ var tnmn5c = document.getElementById("tnmn-5-c");
 tnmn5c.onclick = function() {
   tnmn5m.style.display = "none";
 }
+// When the user clicks anywhere again, close the modal
+tnmn5m.onclick = function() {
+  tnmn5m.style.display = "none";
+}
+
 
 var tnmn2m = document.getElementById("tnmn-2-m");
 var tnmn2tr = document.getElementById("tnmn-2-tr");
@@ -24,6 +29,9 @@ tnmn2tr.onclick = function(){
 }
 var tnmn2c = document.getElementById("tnmn-2-c");
 tnmn2c.onclick = function() {
+  tnmn2m.style.display = "none";
+}
+tnmn2m.onclick = function() {
   tnmn2m.style.display = "none";
 }
 
@@ -38,6 +46,9 @@ var tnmn3c = document.getElementById("tnmn-3-c");
 tnmn3c.onclick = function() {
   tnmn3m.style.display = "none";
 }
+tnmn3m.onclick = function() {
+  tnmn3m.style.display = "none";
+}
 
 var tnmn4m = document.getElementById("tnmn-4-m");
 var tnmn4tr = document.getElementById("tnmn-4-tr");
@@ -48,6 +59,9 @@ tnmn4tr.onclick = function(){
 }
 var tnmn4c = document.getElementById("tnmn-4-c");
 tnmn4c.onclick = function() {
+  tnmn4m.style.display = "none";
+}
+tnmn4m.onclick = function() {
   tnmn4m.style.display = "none";
 }
 
@@ -62,6 +76,9 @@ var tnmn1c = document.getElementById("tnmn-1-c");
 tnmn1c.onclick = function() {
   tnmn1m.style.display = "none";
 }
+tnmn1m.onclick = function() {
+  tnmn1m.style.display = "none";
+}
 
 var tnmn6m = document.getElementById("tnmn-6-m");
 var tnmn6tr = document.getElementById("tnmn-6-tr");
@@ -72,6 +89,9 @@ tnmn6tr.onclick = function(){
 }
 var tnmn6c = document.getElementById("tnmn-6-c");
 tnmn6c.onclick = function() {
+  tnmn6m.style.display = "none";
+}
+tnmn6m.onclick = function() {
   tnmn6m.style.display = "none";
 }
 
@@ -86,6 +106,9 @@ var tnmn7c = document.getElementById("tnmn-7-c");
 tnmn7c.onclick = function() {
   tnmn7m.style.display = "none";
 }
+tnmn7m.onclick = function() {
+  tnmn7m.style.display = "none";
+}
 
 var tnmn8m = document.getElementById("tnmn-8-m");
 var tnmn8tr = document.getElementById("tnmn-8-tr");
@@ -96,6 +119,9 @@ tnmn8tr.onclick = function(){
 }
 var tnmn8c = document.getElementById("tnmn-8-c");
 tnmn8c.onclick = function() {
+  tnmn8m.style.display = "none";
+}
+tnmn8m.onclick = function() {
   tnmn8m.style.display = "none";
 }
 
@@ -110,6 +136,9 @@ var tnmn9c = document.getElementById("tnmn-9-c");
 tnmn9c.onclick = function() {
   tnmn9m.style.display = "none";
 }
+tnmn9m.onclick = function() {
+  tnmn9m.style.display = "none";
+}
 
 var tnmn10m = document.getElementById("tnmn-10-m");
 var tnmn10tr = document.getElementById("tnmn-10-tr");
@@ -120,6 +149,9 @@ tnmn10tr.onclick = function(){
 }
 var tnmn10c = document.getElementById("tnmn-10-c");
 tnmn10c.onclick = function() {
+  tnmn10m.style.display = "none";
+}
+tnmn10m.onclick = function() {
   tnmn10m.style.display = "none";
 }
 
@@ -134,6 +166,9 @@ var tnmn11c = document.getElementById("tnmn-11-c");
 tnmn11c.onclick = function() {
   tnmn11m.style.display = "none";
 }
+tnmn11m.onclick = function() {
+  tnmn11m.style.display = "none";
+}
 
 var tnmn12m = document.getElementById("tnmn-12-m");
 var tnmn12tr = document.getElementById("tnmn-12-tr");
@@ -144,5 +179,8 @@ tnmn12tr.onclick = function(){
 }
 var tnmn12c = document.getElementById("tnmn-12-c");
 tnmn12c.onclick = function() {
+  tnmn12m.style.display = "none";
+}
+tnmn12m.onclick = function() {
   tnmn12m.style.display = "none";
 }

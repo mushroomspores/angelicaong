@@ -14,6 +14,9 @@ var si1c = document.getElementById("si-1-c");
 si1c.onclick = function() {
   si1m.style.display = "none";
 }
+si1m.onclick = function() {
+  si1m.style.display = "none";
+}
 
 var si2m = document.getElementById("si-2-m");
 var si2tr = document.getElementById("si-2-tr");
@@ -24,6 +27,9 @@ si2tr.onclick = function(){
 }
 var si2c = document.getElementById("si-2-c");
 si2c.onclick = function() {
+  si2m.style.display = "none";
+}
+si2m.onclick = function() {
   si2m.style.display = "none";
 }
 
@@ -38,6 +44,9 @@ var si3c = document.getElementById("si-3-c");
 si3c.onclick = function() {
   si3m.style.display = "none";
 }
+si3m.onclick = function() {
+  si3m.style.display = "none";
+}
 
 var si4m = document.getElementById("si-4-m");
 var si4tr = document.getElementById("si-4-tr");
@@ -48,6 +57,9 @@ si4tr.onclick = function(){
 }
 var si4c = document.getElementById("si-4-c");
 si4c.onclick = function() {
+  si4m.style.display = "none";
+}
+si4m.onclick = function() {
   si4m.style.display = "none";
 }
 
@@ -62,6 +74,9 @@ var si5c = document.getElementById("si-5-c");
 si5c.onclick = function() {
   si5m.style.display = "none";
 }
+si5m.onclick = function() {
+  si5m.style.display = "none";
+}
 
 var si6m = document.getElementById("si-6-m");
 var si6tr = document.getElementById("si-6-tr");
@@ -72,6 +87,9 @@ si6tr.onclick = function(){
 }
 var si6c = document.getElementById("si-6-c");
 si6c.onclick = function() {
+  si6m.style.display = "none";
+}
+si6m.onclick = function() {
   si6m.style.display = "none";
 }
 
@@ -86,6 +104,9 @@ var si7c = document.getElementById("si-7-c");
 si7c.onclick = function() {
   si7m.style.display = "none";
 }
+si7m.onclick = function() {
+  si7m.style.display = "none";
+}
 
 var si8m = document.getElementById("si-8-m");
 var si8tr = document.getElementById("si-8-tr");
@@ -96,6 +117,9 @@ si8tr.onclick = function(){
 }
 var si8c = document.getElementById("si-8-c");
 si8c.onclick = function() {
+  si8m.style.display = "none";
+}
+si8m.onclick = function() {
   si8m.style.display = "none";
 }
 
@@ -110,6 +134,9 @@ var si9c = document.getElementById("si-9-c");
 si9c.onclick = function() {
   si9m.style.display = "none";
 }
+si9m.onclick = function() {
+  si9m.style.display = "none";
+}
 
 var si10m = document.getElementById("si-10-m");
 var si10tr = document.getElementById("si-10-tr");
@@ -120,6 +147,9 @@ si10tr.onclick = function(){
 }
 var si10c = document.getElementById("si-10-c");
 si10c.onclick = function() {
+  si10m.style.display = "none";
+}
+si10m.onclick = function() {
   si10m.style.display = "none";
 }
 
@@ -134,6 +164,9 @@ var sidappledc = document.getElementById("si-dappled-c");
 sidappledc.onclick = function() {
   sidappledm.style.display = "none";
 }
+sidappledm.onclick = function() {
+  sidappledm.style.display = "none";
+}
 
 var sithroughtheglassm = document.getElementById("si-throughtheglass-m");
 var sithroughtheglasstr = document.getElementById("si-throughtheglass-tr");
@@ -146,6 +179,9 @@ var sithroughtheglassc = document.getElementById("si-throughtheglass-c");
 sithroughtheglassc.onclick = function() {
   sithroughtheglassm.style.display = "none";
 }
+sithroughtheglassm.onclick = function() {
+  sithroughtheglassm.style.display = "none";
+}
 
 var sicasinom = document.getElementById("si-casino-m");
 var sicasinotr = document.getElementById("si-casino-tr");
@@ -156,5 +192,8 @@ sicasinotr.onclick = function(){
 }
 var sicasinoc = document.getElementById("si-casino-c");
 sicasinoc.onclick = function() {
+  sicasinom.style.display = "none";
+}
+sicasinom.onclick = function() {
   sicasinom.style.display = "none";
 }

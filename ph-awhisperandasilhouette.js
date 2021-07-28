@@ -14,6 +14,9 @@ var awaas1c = document.getElementById("awaas-1-c");
 awaas1c.onclick = function() {
   awaas1m.style.display = "none";
 }
+awaas1m.onclick = function() {
+  awaas1m.style.display = "none";
+}
 
 var awaas2m = document.getElementById("awaas-2-m");
 var awaas2tr = document.getElementById("awaas-2-tr");
@@ -24,6 +27,9 @@ awaas2tr.onclick = function(){
 }
 var awaas2c = document.getElementById("awaas-2-c");
 awaas2c.onclick = function() {
+  awaas2m.style.display = "none";
+}
+awaas2m.onclick = function() {
   awaas2m.style.display = "none";
 }
 
@@ -38,6 +44,9 @@ var awaas3c = document.getElementById("awaas-3-c");
 awaas3c.onclick = function() {
   awaas3m.style.display = "none";
 }
+awaas3m.onclick = function() {
+  awaas3m.style.display = "none";
+}
 
 var awaas5m = document.getElementById("awaas-5-m");
 var awaas5tr = document.getElementById("awaas-5-tr");
@@ -48,6 +57,9 @@ awaas5tr.onclick = function(){
 }
 var awaas5c = document.getElementById("awaas-5-c");
 awaas5c.onclick = function() {
+  awaas5m.style.display = "none";
+}
+awaas5m.onclick = function() {
   awaas5m.style.display = "none";
 }
 
@@ -62,6 +74,9 @@ var awaas6c = document.getElementById("awaas-6-c");
 awaas6c.onclick = function() {
   awaas6m.style.display = "none";
 }
+awaas6m.onclick = function() {
+  awaas6m.style.display = "none";
+}
 
 var awaas7m = document.getElementById("awaas-7-m");
 var awaas7tr = document.getElementById("awaas-7-tr");
@@ -72,6 +87,9 @@ awaas7tr.onclick = function(){
 }
 var awaas7c = document.getElementById("awaas-7-c");
 awaas7c.onclick = function() {
+  awaas7m.style.display = "none";
+}
+awaas7m.onclick = function() {
   awaas7m.style.display = "none";
 }
 
@@ -86,6 +104,9 @@ var awaas8c = document.getElementById("awaas-8-c");
 awaas8c.onclick = function() {
   awaas8m.style.display = "none";
 }
+awaas8m.onclick = function() {
+  awaas8m.style.display = "none";
+}
 
 var awaas9m = document.getElementById("awaas-9-m");
 var awaas9tr = document.getElementById("awaas-9-tr");
@@ -96,6 +117,9 @@ awaas9tr.onclick = function(){
 }
 var awaas9c = document.getElementById("awaas-9-c");
 awaas9c.onclick = function() {
+  awaas9m.style.display = "none";
+}
+awaas9m.onclick = function() {
   awaas9m.style.display = "none";
 }
 
@@ -110,6 +134,9 @@ var awaas10c = document.getElementById("awaas-10-c");
 awaas10c.onclick = function() {
   awaas10m.style.display = "none";
 }
+awaas10m.onclick = function() {
+  awaas10m.style.display = "none";
+}
 
 var awaas11m = document.getElementById("awaas-11-m");
 var awaas11tr = document.getElementById("awaas-11-tr");
@@ -120,6 +147,9 @@ awaas11tr.onclick = function(){
 }
 var awaas11c = document.getElementById("awaas-11-c");
 awaas11c.onclick = function() {
+  awaas11m.style.display = "none";
+}
+awaas11m.onclick = function() {
   awaas11m.style.display = "none";
 }
 
@@ -134,6 +164,9 @@ var awaas12c = document.getElementById("awaas-12-c");
 awaas12c.onclick = function() {
   awaas12m.style.display = "none";
 }
+awaas12m.onclick = function() {
+  awaas12m.style.display = "none";
+}
 
 var awaashandm = document.getElementById("awaas-hand-m");
 var awaashandtr = document.getElementById("awaas-hand-tr");
@@ -144,6 +177,9 @@ awaashandtr.onclick = function(){
 }
 var awaashandc = document.getElementById("awaas-hand-c");
 awaashandc.onclick = function() {
+  awaashandm.style.display = "none";
+}
+awaashandm.onclick = function() {
   awaashandm.style.display = "none";
 }
 
@@ -158,6 +194,9 @@ var awaaspearlc = document.getElementById("awaas-pearl-c");
 awaaspearlc.onclick = function() {
   awaaspearlm.style.display = "none";
 }
+awaaspearlm.onclick = function() {
+  awaaspearlm.style.display = "none";
+}
 
 var awaasthunderm = document.getElementById("awaas-thunder-m");
 var awaasthundertr = document.getElementById("awaas-thunder-tr");
@@ -168,6 +207,9 @@ awaasthundertr.onclick = function(){
 }
 var awaasthunderc = document.getElementById("awaas-thunder-c");
 awaasthunderc.onclick = function() {
+  awaasthunderm.style.display = "none";
+}
+awaasthunderm.onclick = function() {
   awaasthunderm.style.display = "none";
 }
 
@@ -182,6 +224,9 @@ var awaashands1c = document.getElementById("awaas-hands1-c");
 awaashands1c.onclick = function() {
   awaashands1m.style.display = "none";
 }
+awaashands1m.onclick = function() {
+  awaashands1m.style.display = "none";
+}
 
 var awaashands2m = document.getElementById("awaas-hands2-m");
 var awaashands2tr = document.getElementById("awaas-hands2-tr");
@@ -192,5 +237,8 @@ awaashands2tr.onclick = function(){
 }
 var awaashands2c = document.getElementById("awaas-hands2-c");
 awaashands2c.onclick = function() {
+  awaashands2m.style.display = "none";
+}
+awaashands2m.onclick = function() {
   awaashands2m.style.display = "none";
 }

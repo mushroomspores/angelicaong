@@ -14,6 +14,9 @@ var bdstOne1c = document.getElementById("bdst1-1-c");
 bdstOne1c.onclick = function() {
   bdstOne1m.style.display = "none";
 }
+bdstOne1m.onclick = function() {
+  bdstOne1m.style.display = "none";
+}
 
 var bdstOne2m = document.getElementById("bdst1-2-m");
 var bdstOne2tr = document.getElementById("bdst1-2-tr");
@@ -26,6 +29,9 @@ var bdstOne2c = document.getElementById("bdst1-2-c");
 bdstOne2c.onclick = function() {
   bdstOne2m.style.display = "none";
 }
+bdstOne2m.onclick = function() {
+  bdstOne2m.style.display = "none";
+}
 
 var bdstOne3m = document.getElementById("bdst1-3-m");
 var bdstOne3tr = document.getElementById("bdst1-3-tr");
@@ -36,5 +42,8 @@ bdstOne3tr.onclick = function(){
 }
 var bdstOne3c = document.getElementById("bdst1-3-c");
 bdstOne3c.onclick = function() {
+  bdstOne3m.style.display = "none";
+}
+bdstOne3m.onclick = function() {
   bdstOne3m.style.display = "none";
 }

@@ -14,6 +14,9 @@ var asoad1c = document.getElementById("asoad-1-c");
 asoad1c.onclick = function() {
   asoad1m.style.display = "none";
 }
+asoad1m.onclick = function() {
+  asoad1m.style.display = "none";
+}
 
 var asoad2m = document.getElementById("asoad-2-m");
 var asoad2tr = document.getElementById("asoad-2-tr");
@@ -24,6 +27,9 @@ asoad2tr.onclick = function(){
 }
 var asoad2c = document.getElementById("asoad-2-c");
 asoad2c.onclick = function() {
+  asoad2m.style.display = "none";
+}
+asoad2m.onclick = function() {
   asoad2m.style.display = "none";
 }
 
@@ -38,6 +44,9 @@ var asoad3c = document.getElementById("asoad-3-c");
 asoad3c.onclick = function() {
   asoad3m.style.display = "none";
 }
+asoad3m.onclick = function() {
+  asoad3m.style.display = "none";
+}
 
 var asoad4m = document.getElementById("asoad-4-m");
 var asoad4tr = document.getElementById("asoad-4-tr");
@@ -48,5 +57,8 @@ asoad4tr.onclick = function(){
 }
 var asoad4c = document.getElementById("asoad-4-c");
   asoad4c.onclick = function() {
+  asoad4m.style.display = "none";
+}
+  asoad4m.onclick = function() {
   asoad4m.style.display = "none";
 }

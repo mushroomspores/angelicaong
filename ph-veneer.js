@@ -14,6 +14,9 @@ var vn1c = document.getElementById("vn-1-c");
 vn1c.onclick = function() {
   vn1m.style.display = "none";
 }
+vn1m.onclick = function() {
+  vn1m.style.display = "none";
+}
 
 var vn2m = document.getElementById("vn-2-m");
 var vn2tr = document.getElementById("vn-2-tr");
@@ -24,6 +27,9 @@ vn2tr.onclick = function(){
 }
 var vn2c = document.getElementById("vn-2-c");
 vn2c.onclick = function() {
+  vn2m.style.display = "none";
+}
+vn2m.onclick = function() {
   vn2m.style.display = "none";
 }
 
@@ -38,6 +44,9 @@ var vn3c = document.getElementById("vn-3-c");
 vn3c.onclick = function() {
   vn3m.style.display = "none";
 }
+vn3m.onclick = function() {
+  vn3m.style.display = "none";
+}
 
 var vn4m = document.getElementById("vn-4-m");
 var vn4tr = document.getElementById("vn-4-tr");
@@ -48,6 +57,9 @@ vn4tr.onclick = function(){
 }
 var vn4c = document.getElementById("vn-4-c");
 vn4c.onclick = function() {
+  vn4m.style.display = "none";
+}
+vn4m.onclick = function() {
   vn4m.style.display = "none";
 }
 
@@ -62,6 +74,9 @@ var vn5c = document.getElementById("vn-5-c");
 vn5c.onclick = function() {
   vn5m.style.display = "none";
 }
+vn5m.onclick = function() {
+  vn5m.style.display = "none";
+}
 
 var vn6m = document.getElementById("vn-6-m");
 var vn6tr = document.getElementById("vn-6-tr");
@@ -72,5 +87,8 @@ vn6tr.onclick = function(){
 }
 var vn6c = document.getElementById("vn-6-c");
 vn6c.onclick = function() {
+  vn6m.style.display = "none";
+}
+vn6m.onclick = function() {
   vn6m.style.display = "none";
 }
