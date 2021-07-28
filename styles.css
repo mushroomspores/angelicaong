@@ -381,6 +381,13 @@ a:hover#contacttext3 {color: grey;}
   margin-right: auto;
   display: block;
 }
+#iot-1-tr {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
 div.gallery {
   border: 0px solid grey;
@@ -618,6 +625,13 @@ max-width: 50%;
   margin-right: auto;
   display: block;
 }
+#iot-1-tr {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -630,7 +644,7 @@ max-width: 50%;
 flex: 100%;
 max-width: 100%;
 }
-#asoad-1-tr {
+#asoad-1-tr, #iot-1-tr {
   width: 100%;
   height: auto;
   margin-left: auto;
