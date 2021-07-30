@@ -244,6 +244,14 @@ a:link#writingbtn {text-decoration: none; color: grey;}
 a:visited#writingbtn {color: grey;}
 a:hover#writingbtn {color: black;}
 
+a:link#oilbtn {text-decoration: none; color: grey;}
+a:visited#oilbtn {color: grey;}
+a:hover#oilbtn {color: black;}
+
+a:link#watercolourbtn {text-decoration: none; color: grey;}
+a:visited#watercolourbtn {color: grey;}
+a:hover#watercolourbtn {color: black;}
+
 .dropdown:hover .dropdown-content {display: block;}
 li a.active {color: black;}
 li a:hover:not(.active) {color: grey;}
@@ -485,6 +493,11 @@ div.desc a {
   margin-top: 1.5em;
 }
 .videoimages {
+  width: auto;
+  height: 40vh;
+  margin-top: 1.5em;
+}
+.paintingimages {
   width: auto;
   height: 40vh;
   margin-top: 1.5em;
