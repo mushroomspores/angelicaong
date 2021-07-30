@@ -17,7 +17,7 @@ html {
     font-size: 2.5vw;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    line-height: 1.8;
+    line-height: 1.5;
   }
    h2 {
     color: black;
@@ -57,7 +57,6 @@ html {
   .dropdown-content {
     display: none;
     position: absolute;
-    left: 4.5vw;
     z-index: 1;
     background-color: #F9F8F2;
   }
@@ -244,13 +243,20 @@ a:link#writingbtn {text-decoration: none; color: grey;}
 a:visited#writingbtn {color: grey;}
 a:hover#writingbtn {color: black;}
 
-a:link#oilbtn {text-decoration: none; color: grey;}
-a:visited#oilbtn {color: grey;}
-a:hover#oilbtn {color: black;}
+a:link#oilbtn-o {text-decoration: none; color: black;}
+a:visited#oilbtn-o {color: black;}
+a:hover#oilbtn-o {color: grey;}
+a:link#watercolourbtn-o {text-decoration: none; color: grey;}
+a:visited#watercolourbtn-o {color: grey;}
+a:hover#watercolourbtn-o {color: black;}
+a:active#watercolourbtn-o {color: black;}
 
-a:link#watercolourbtn {text-decoration: none; color: grey;}
-a:visited#watercolourbtn {color: grey;}
-a:hover#watercolourbtn {color: black;}
+a:link#oilbtn-w {text-decoration: none; color: grey;}
+a:visited#oilbtn-w {color: grey;}
+a:hover#oilbtn-w {color: black;}
+a:link#watercolourbtn-w {text-decoration: none; color: black;}
+a:visited#watercolourbtn-w {color: black;}
+a:hover#watercolourbtn-w {color: grey;}
 
 .dropdown:hover .dropdown-content {display: block;}
 li a.active {color: black;}
@@ -382,6 +388,7 @@ a:hover#contacttext3 {color: grey;}
   display: none;
 }
 .centretitle {text-align: center;}
+#subnavbar {text-align: center;}
 #asoad-1-tr {
   width: 30%;
   height: auto;
@@ -757,22 +764,3 @@ figure.writingfigures a {
   color: black;
 }
 figure.writingfigures a:hover {color: grey;}
-
-/* Style the list */
-ul.breadcrumb {
-  list-style: none;
-  text-align: center;
-}
-
-/* Display list items side by side */
-ul.breadcrumb li {
-  display: inline;
-  text-align: center;
-}
-
-/* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li+li:before {
-  padding: 0.5vw;
-  color: grey;
-  content: "|\00a0";
-}
