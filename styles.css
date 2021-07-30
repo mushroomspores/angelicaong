@@ -757,3 +757,22 @@ figure.writingfigures a {
   color: black;
 }
 figure.writingfigures a:hover {color: grey;}
+
+/* Style the list */
+ul.breadcrumb {
+  list-style: none;
+  text-align: center;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  text-align: center;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 0.5vw;
+  color: grey;
+  content: "|\00a0";
+}
