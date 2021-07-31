@@ -516,7 +516,7 @@ div.desc a {
   padding: 0 4px;
   }
 
-  /* Create four equal columns that sits next to each other */
+  /* Create four equal columns that sit next to each other */
   .column {
   flex: 25%;
   max-width: 25%;
@@ -609,7 +609,7 @@ flex-wrap: wrap;
 padding: 0 4px;
 }
 
-/* Create six equal columns that sits next to each other */
+/* Create six equal columns that sit next to each other */
 .column-vn {
 flex: 16.66%;
 max-width: 16.66%;
@@ -628,7 +628,7 @@ flex-wrap: wrap;
 padding: 0 4px;
 }
 
-/* Create three equal columns that sits next to each other */
+/* Create three equal columns that sit next to each other */
 .column-bdst {
 flex: 33.33%;
 max-width: 33.33%;
@@ -642,6 +642,27 @@ vertical-align: middle;
 width: 100%;
 }
 
+.row-int {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+/* Create two equal columns that sit next to each other */
+.column-int {
+flex: 25%;
+max-width: 25%;
+padding: 0 20px;
+padding-bottom: 1em;
+}
+
+.column-int img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+#int-caption-middle {display: none;}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 1000px) {
 .column-vn {
@@ -652,6 +673,12 @@ max-width: 33.32%;
 flex: 50%;
 max-width: 50%;
 }
+.column-int {
+flex: 50%;
+max-width: 50%;
+}
+#column-int-spacer {display: none;}
+#int-caption-middle {display: none;}
 #asoad-1-tr {
   width: 50%;
   height: auto;
@@ -678,6 +705,13 @@ max-width: 50%;
 flex: 100%;
 max-width: 100%;
 }
+.column-int {
+flex: 100%;
+max-width: 100%;
+}
+#column-int-spacer {display: none;}
+#int-caption-bottom {display: none;}
+#int-caption-middle {display: block;}
 #asoad-1-tr, #iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr {
   width: 100%;
   height: auto;
