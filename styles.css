@@ -648,7 +648,7 @@ flex-wrap: wrap;
 padding: 0 4px;
 }
 
-/* Create two equal columns that sit next to each other */
+/* Create four equal columns that sit next to each other */
 .column-int {
 flex: 25%;
 max-width: 25%;
@@ -662,6 +662,27 @@ vertical-align: middle;
 width: 100%;
 }
 #int-caption-middle {display: none;}
+
+.row-painting3 {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+/* Create four equal columns that sit next to each other */
+.column-painting3 {
+flex: 50%;
+max-width: 50%;
+padding: 0 20px;
+padding-bottom: 1em;
+}
+
+.column-painting3 img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+#painting3-caption-middle {display: none;}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 1000px) {
@@ -679,6 +700,11 @@ max-width: 50%;
 }
 #column-int-spacer {display: none;}
 #int-caption-middle {display: none;}
+.column-painting3 {
+flex: 50%;
+max-width: 50%;
+}
+#painting3-caption-middle {display: none;}
 #asoad-1-tr {
   width: 50%;
   height: auto;
@@ -712,6 +738,12 @@ max-width: 100%;
 #column-int-spacer {display: none;}
 #int-caption-bottom {display: none;}
 #int-caption-middle {display: block;}
+.column-painting3 {
+flex: 100%;
+max-width: 100%;
+}
+#painting3-caption-bottom {display: none;}
+#painting3-caption-middle {display: block;}
 #asoad-1-tr, #iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr {
   width: 100%;
   height: auto;
