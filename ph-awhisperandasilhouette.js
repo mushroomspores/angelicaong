@@ -53,7 +53,7 @@ var awaas5tr = document.getElementById("awaas-5-tr");
 var awaas5mc = document.getElementById("awaas-5-mc");
 awaas5tr.onclick = function(){
   awaas5m.style.display = "block";
-  awaas5mc.src = hotographyimages/awhisperandasilhouette/awhisperandasilhouette-5-2020-angelicaong.jpg.src;
+  awaas5mc.src = photographyimages/awhisperandasilhouette/awhisperandasilhouette-5-2020-angelicaong.jpg.src;
 }
 var awaas5c = document.getElementById("awaas-5-c");
 awaas5c.onclick = function() {

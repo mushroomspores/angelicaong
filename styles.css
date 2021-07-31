@@ -396,7 +396,7 @@ a:hover#contacttext3 {color: grey;}
   margin-right: auto;
   display: block;
 }
-#iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr {
+#iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr {
   width: 50%;
   height: auto;
   margin-left: auto;
@@ -686,7 +686,7 @@ max-width: 50%;
   margin-right: auto;
   display: block;
 }
-#iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr {
+#iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr {
   width: 70%;
   height: auto;
   margin-left: auto;
@@ -712,7 +712,7 @@ max-width: 100%;
 #column-int-spacer {display: none;}
 #int-caption-bottom {display: none;}
 #int-caption-middle {display: block;}
-#asoad-1-tr, #iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr {
+#asoad-1-tr, #iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr {
   width: 100%;
   height: auto;
   margin-left: auto;
