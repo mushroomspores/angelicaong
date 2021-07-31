@@ -68,7 +68,7 @@ var painting451tr = document.getElementById("painting4-5-1-tr");
 var painting451mc = document.getElementById("painting4-5-1-mc");
 painting451tr.onclick = function(){
   painting451m.style.display = "block";
-  painting451mc.src = this.src;
+  painting451mc.src = paintingimages.jpg.src;
 }
 var painting451c = document.getElementById("painting4-5-1-c");
 painting451c.onclick = function() {
@@ -83,7 +83,7 @@ var painting452tr = document.getElementById("painting4-5-2-tr");
 var painting452mc = document.getElementById("painting4-5-2-mc");
 painting452tr.onclick = function(){
   painting452m.style.display = "block";
-  painting452mc.src = this.src;
+  painting452mc.src = paintingimages.jpg.src;
 }
 var painting452c = document.getElementById("painting4-5-2-c");
 painting452c.onclick = function() {
@@ -97,7 +97,7 @@ var painting453tr = document.getElementById("painting4-5-3-tr");
 var painting453mc = document.getElementById("painting4-5-3-mc");
 painting453tr.onclick = function(){
   painting453m.style.display = "block";
-  painting453mc.src = this.src;
+  painting453mc.src = paintingimages.jpg.src;
 }
 var painting453c = document.getElementById("painting4-5-3-c");
 painting453c.onclick = function() {
