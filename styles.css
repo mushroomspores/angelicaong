@@ -692,6 +692,7 @@ width: 100%;
 }
 #painting3-caption-middle {display: none;}
 #unt-tw-caption-middle {display: none;}
+#tianmu-caption-middle {display: none;}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 1000px) {
@@ -715,6 +716,8 @@ max-width: 50%;
 }
 #painting3-caption-middle {display: none;}
 #unt-tw-caption-middle {display: none;}
+#column-tianmu-spacer {display: none;}
+#tianmu-caption-middle {display: none;}
 #asoad-1-tr {
   width: 50%;
   height: auto;
@@ -756,6 +759,9 @@ max-width: 100%;
 #painting3-caption-middle {display: block;}
 #unt-tw-caption-bottom {display: none;}
 #unt-tw-caption-middle {display: block;}
+#column-tianmu-spacer {display: none;}
+#tianmu-caption-bottom {display: none;}
+#tianmu-caption-middle {display: block;}
 #asoad-1-tr, #iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr {
   width: 100%;
   height: auto;
