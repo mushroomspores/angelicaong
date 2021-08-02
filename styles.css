@@ -389,7 +389,7 @@ a:hover#contacttext3 {color: grey;}
 }
 .centretitle {text-align: center;}
 #subnavbar {text-align: center;}
-#asoad-1-tr {
+#asoad-1-tr, #trm-ii-1-tr {
   width: 30%;
   height: auto;
   margin-left: auto;
@@ -718,7 +718,7 @@ max-width: 50%;
 #unt-tw-caption-middle {display: none;}
 #column-tianmu-spacer {display: none;}
 #tianmu-caption-middle {display: none;}
-#asoad-1-tr {
+#asoad-1-tr, #trm-ii-1-tr {
   width: 50%;
   height: auto;
   margin-left: auto;
@@ -762,7 +762,7 @@ max-width: 100%;
 #column-tianmu-spacer {display: none;}
 #tianmu-caption-bottom {display: none;}
 #tianmu-caption-middle {display: block;}
-#asoad-1-tr, #iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr {
+#asoad-1-tr, #iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr, #trm-ii-1-tr {
   width: 100%;
   height: auto;
   margin-left: auto;
