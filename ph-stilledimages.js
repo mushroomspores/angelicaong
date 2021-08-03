@@ -23,7 +23,7 @@ var si2tr = document.getElementById("si-2-tr");
 var si2mc = document.getElementById("si-2-mc");
 si2tr.onclick = function(){
   si2m.style.display = "block";
-  si2mc.src = photographyimages/awhisperandasilhouette/awhisperandasilhouette-2-2020-angelicaong.jpg.src;
+  si2mc.src = this.src;
 }
 var si2c = document.getElementById("si-2-c");
 si2c.onclick = function() {
@@ -38,7 +38,7 @@ var si3tr = document.getElementById("si-3-tr");
 var si3mc = document.getElementById("si-3-mc");
 si3tr.onclick = function(){
   si3m.style.display = "block";
-  si3mc.src = photographyimages/awhisperandasilhouette/awhisperandasilhouette-3-2020-angelicaong-borderless.jpg.src;
+  si3mc.src = this.src;
 }
 var si3c = document.getElementById("si-3-c");
 si3c.onclick = function() {
@@ -53,7 +53,7 @@ var si4tr = document.getElementById("si-4-tr");
 var si4mc = document.getElementById("si-4-mc");
 si4tr.onclick = function(){
   si4m.style.display = "block";
-  si4mc.src = photographyimages/awhisperandasilhouette/awhisperandasilhouette-3-2020-angelicaong-borderless.jpg.src;
+  si4mc.src = this.src;
 }
 var si4c = document.getElementById("si-4-c");
 si4c.onclick = function() {
@@ -68,7 +68,7 @@ var si5tr = document.getElementById("si-5-tr");
 var si5mc = document.getElementById("si-5-mc");
 si5tr.onclick = function(){
   si5m.style.display = "block";
-  si5mc.src = hotographyimages/awhisperandasilhouette/awhisperandasilhouette-5-2020-angelicaong.jpg.src;
+  si5mc.src = this.src;
 }
 var si5c = document.getElementById("si-5-c");
 si5c.onclick = function() {

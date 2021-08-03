@@ -23,7 +23,7 @@ var trmii2tr = document.getElementById("trm-ii-2-tr");
 var trmii2mc = document.getElementById("trm-ii-2-mc");
 trmii2tr.onclick = function(){
   trmii2m.style.display = "block";
-  trmii2mc.src = photographyimages/awhisperandatrmiilhouette/awhisperandatrmiilhouette-2-2020-angelicaong.jpg.src;
+  trmii2mc.src = this.src;
 }
 var trmii2c = document.getElementById("trm-ii-2-c");
 trmii2c.onclick = function() {
@@ -38,7 +38,7 @@ var trmii3tr = document.getElementById("trm-ii-3-tr");
 var trmii3mc = document.getElementById("trm-ii-3-mc");
 trmii3tr.onclick = function(){
   trmii3m.style.display = "block";
-  trmii3mc.src = photographyimages/awhisperandatrmiilhouette/awhisperandatrmiilhouette-3-2020-angelicaong-borderless.jpg.src;
+  trmii3mc.src = this.src;
 }
 var trmii3c = document.getElementById("trm-ii-3-c");
 trmii3c.onclick = function() {
@@ -53,7 +53,7 @@ var trmii4tr = document.getElementById("trm-ii-4-tr");
 var trmii4mc = document.getElementById("trm-ii-4-mc");
 trmii4tr.onclick = function(){
   trmii4m.style.display = "block";
-  trmii4mc.src = photographyimages/awhisperandatrmiilhouette/awhisperandatrmiilhouette-3-2020-angelicaong-borderless.jpg.src;
+  trmii4mc.src = this.src;
 }
 var trmii4c = document.getElementById("trm-ii-4-c");
 trmii4c.onclick = function() {
@@ -68,7 +68,7 @@ var trmii5tr = document.getElementById("trm-ii-5-tr");
 var trmii5mc = document.getElementById("trm-ii-5-mc");
 trmii5tr.onclick = function(){
   trmii5m.style.display = "block";
-  trmii5mc.src = hotographyimages/awhisperandatrmiilhouette/awhisperandatrmiilhouette-5-2020-angelicaong.jpg.src;
+  trmii5mc.src = this.src;
 }
 var trmii5c = document.getElementById("trm-ii-5-c");
 trmii5c.onclick = function() {
