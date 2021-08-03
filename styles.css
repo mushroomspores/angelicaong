@@ -509,6 +509,11 @@ div.desc a {
   height: 40vh;
   margin-top: 1.5em;
 }
+.bookimages {
+  width: auto;
+  height: 40vh;
+  margin-top: 1.5em;
+}
 
   .row {
   display: flex;
@@ -789,10 +794,7 @@ max-width: 100%;
   display: table;
   border: 0px solid grey;
 }
-.bookimages {
-  width: auto;
-  height: 45vh;
-}
+
 figcaption.bookfigcaptions {
   display: table-caption;
   caption-side: bottom;
