@@ -320,6 +320,8 @@ a:hover#contacttext3 {color: grey;}
   .desktop-spacer {display: none;}
 }
 
+@media only screen and (max-width: 1000px) {#bookheaderspacer {display: none;}}
+
 @media only screen and (min-width: 701px) {
   /* For small devices like tablets: */
   .col-s-1 {width: 8.33%;}
@@ -396,7 +398,7 @@ a:hover#contacttext3 {color: grey;}
   margin-right: auto;
   display: block;
 }
-#iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr {
+#iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr, #bk-awaas-9-tr {
   width: 50%;
   height: auto;
   margin-left: auto;
@@ -449,6 +451,12 @@ div.desc a {
   float: left;
   width: 49.99999%;
 }
+.responsive-books {
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  float: left;
+  width: 33.33333%;
+}
 
 @media only screen and (max-width: 1000px) {
   .responsive {
@@ -458,6 +466,12 @@ div.desc a {
   .responsive-video {
     width: 100%;
     margin: 6px 0;
+  }
+  .responsive-books {
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    float: left;
+    width: 33.33333%;
   }
   div.desc {
     padding: 1em;
@@ -472,6 +486,11 @@ div.desc a {
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 100%;
+  }
+  .responsive-books {
+    width: 100%;
+    border: 0px solid grey;
+    margin-top: 0;
   }
   div.desc {
     padding: 1em;
@@ -682,7 +701,7 @@ flex-wrap: wrap;
 padding: 0 4px;
 }
 
-/* Create four equal columns that sit next to each other */
+/* Create two equal columns that sit next to each other */
 .column-painting3 {
 flex: 50%;
 max-width: 50%;
@@ -730,7 +749,7 @@ max-width: 50%;
   margin-right: auto;
   display: block;
 }
-#iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr {
+#iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr, #bk-awaas-9-tr {
   width: 70%;
   height: auto;
   margin-left: auto;
@@ -767,7 +786,7 @@ max-width: 100%;
 #column-tianmu-spacer {display: none;}
 #tianmu-caption-bottom {display: none;}
 #tianmu-caption-middle {display: block;}
-#asoad-1-tr, #iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr, #trm-ii-1-tr, #trm-i-1-tr, #pn-thunder-1-tr, #mnwp-1-tr {
+#asoad-1-tr, #iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr, #trm-ii-1-tr, #trm-i-1-tr, #pn-thunder-1-tr, #mnwp-1-tr, #bk-awaas-9-tr {
   width: 100%;
   height: auto;
   margin-left: auto;
