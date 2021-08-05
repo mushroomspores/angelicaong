@@ -794,42 +794,46 @@ max-width: 100%;
   display: block;
 }
 }
-
-.writingfigures {
-  width: 50%;
-  height: 50vh;
-  float: left;
+table.table-desktop {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+td.td-desktop {
+  border: 1px solid grey;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
   text-align: center;
-  text-indent: 0;
-  margin-top: 1.5em;
-  margin-right: 0;
-  margin-left: 0;
-  margin-bottom: 0;
-  padding-right: 3em;
-  color: black;
-  font-size: 1vw;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  display: table;
-  border: 0px solid grey;
 }
-.writingiframes {
-  width: 74%;
+iframe.iframe-desktop {
   height: 50vh;
+  width: 30vw;
 }
-figcaption.writingfigcaptions {
-  display: table-caption;
-  caption-side: bottom;
-  margin-top: 0;
+#writing-mobile {display: none;}
+table.table-mobile {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+tr {
+  border-collapse: collapse;
+  margin-left: auto;
   margin-right: 0;
-  margin-left: 0;
-  margin-bottom: 1.5em;
-  padding-right: 3em;
-  padding-top: 0.5em;
-  border: 0px solid grey;
 }
-figure.writingfigures a {
-  text-decoration: none;
-  color: black;
+td.td-mobile {
+  border: 1px solid grey;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
 }
-figure.writingfigures a:hover {color: grey;}
+iframe.iframe-mobile {
+  height: 50vh;
+  width: 90vw;
+}
+@media screen and (max-width: 1000px) {}
+@media screen and (max-width: 700px) {
+  #writing-desktop {display: none;}
+  #writing-mobile {display:  block;}
+}
