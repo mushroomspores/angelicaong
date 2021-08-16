@@ -1,3 +1,6 @@
+AOS.init({
+  duration: 1200,
+})
 //js script for ph-veneer.html
 // Get the modal
 var ihcmacl1m = document.getElementById("ihc-macl-1-m");
