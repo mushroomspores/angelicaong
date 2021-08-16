@@ -1,3 +1,6 @@
+AOS.init({
+  duration: 1200,
+})
 // js script for painting.html
 var painting2m = document.getElementById("painting2-m");
 var painting2tr = document.getElementById("painting2-tr");

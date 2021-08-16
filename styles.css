@@ -817,3 +817,13 @@ max-width: 100%;
   display: block;
 }
 }
+.copyrighttext {
+padding: 1em;
+text-align: center;
+color: grey;
+font-size: 1vw;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+}
+/* NOTE: site-wide animations */
+.copyrighttext {animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
