@@ -1,3 +1,6 @@
+AOS.init({
+  duration: 1200,
+})
 //js script for ph-veneer.html
 // Get the modal
 var si1m = document.getElementById("si-1-m");

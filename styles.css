@@ -320,7 +320,10 @@ a:hover#contacttext3 {color: grey;}
   .desktop-spacer {display: none;}
 }
 
-@media only screen and (max-width: 1000px) {#bookheaderspacer {display: none;}}
+@media only screen and (max-width: 1000px) {
+  #bookheaderspacer {display: none;}
+  #veneer-bottom-spacer {display: none;}
+}
 
 @media only screen and (min-width: 701px) {
   /* For small devices like tablets: */
