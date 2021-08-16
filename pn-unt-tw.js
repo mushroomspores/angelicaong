@@ -1,4 +1,7 @@
-//js script for ph-veneer.html
+AOS.init({
+  duration: 1200,
+})
+//js script for pn-unt-tw.html
 // Get the modal
 var unttw1m = document.getElementById("unt-tw-1-m");
 // Get the image and insert it inside the modal - use its "alt" text as a caption
