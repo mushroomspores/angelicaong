@@ -1,3 +1,6 @@
+AOS.init({
+  duration: 1200,
+})
 // js script for watercolourpainting.html
 var aftsunm = document.getElementById("aftsun-m");
 var aftsuntr = document.getElementById("aftsun-tr");
