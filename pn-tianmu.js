@@ -1,3 +1,6 @@
+AOS.init({
+  duration: 1200,
+})
 //js script for ph-veneer.html
 // Get the modal
 var tianmu1m = document.getElementById("tianmu-1-m");
