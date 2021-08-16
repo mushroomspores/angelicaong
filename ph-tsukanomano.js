@@ -1,3 +1,6 @@
+AOS.init({
+  duration: 1200,
+})
 // js script for ph-tsukanomano.html
 // Get the modal
 var tnmn5m = document.getElementById("tnmn-5-m");
