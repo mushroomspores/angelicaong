@@ -600,8 +600,14 @@ div.desc a {
       margin-top: 1.5em;
     }
     .painting-tr:hover {opacity: 0.7;}
+    .hmpg-tr {
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .hmpg-tr:hover {opacity: 0.7;}
+    #hmpg-tnmn-5-tr:hover, #hmpg-tnmn-1-tr:hover, #hmpg-tnmn-3-tr:hover, #hmpg-tnmn-7-tr:hover, #hmpg-pn-thunder-tr:hover, #hmpg-pn-trm-ii-tr:hover, #hmpg-pn-tianmu-tr:hover {opacity: 0.8; transition: opacity 0.3s;}
     /* The Modal (background) */
-    .ph-m {
+    .ph-m, .hmpg-m {
       cursor: zoom-out;
       display: none; /* Hidden by default */
       position: fixed; /* Stay in place */
@@ -616,7 +622,7 @@ div.desc a {
       background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
     }
     /* Modal Content (Image) */
-    .ph-mc {
+    .ph-mc, .hmpg-mc {
       margin: auto;
       display: block;
       height: 80vh;
@@ -624,7 +630,7 @@ div.desc a {
       object-fit: contain;
     }
     /* Add Animation */
-    .ph-mc, #caption {
+    .ph-mc, #caption, .hmpg-mc {
       -webkit-animation-name: zoom;
       -webkit-animation-duration: 0.3s;
       animation-name: zoom;
@@ -639,7 +645,7 @@ div.desc a {
       to {transform:scale(1)}
     }
     /* The Close Button */
-    .ph-c {
+    .ph-c, .hmpg-c {
       position: absolute;
       top: 15px;
       right: 35px;
@@ -654,9 +660,15 @@ div.desc a {
       text-decoration: none;
       cursor: pointer;
     }
+    .hmpg-c:hover,
+    .hmpg-c:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
     /* 100% Image Width on Smaller Screens */
     @media only screen and (max-width: 700px){
-      .ph-mc {
+      .ph-mc, .hmpg-mc {
         width: 100%;
       }
     }
