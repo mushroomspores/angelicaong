@@ -829,4 +829,4 @@ font-family: 'Open Sans', sans-serif;
 font-weight: 300;
 }
 /* NOTE: site-wide animations */
-.centretitle, #subnavbar, #navbar, #header {animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.centretitle, #subnavbar, #navbar, #header, #cvexhibitions, #cveducation, #contact {animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:1}}
