@@ -106,3 +106,93 @@ hmpgpntianmuc.onclick = function() {
 hmpgpntianmum.onclick = function() {
   hmpgpntianmum.style.display = "none";
 }
+
+var hmpgpnpainting4m = document.getElementById("hmpg-pn-painting4-m");
+var hmpgpnpainting4tr = document.getElementById("hmpg-pn-painting4-tr");
+var hmpgpnpainting4mc = document.getElementById("hmpg-pn-painting4-mc");
+hmpgpnpainting4tr.onclick = function(){
+  hmpgpnpainting4m.style.display = "block";
+  hmpgpnpainting4mc.src = this.src;
+}
+var hmpgpnpainting4c = document.getElementById("hmpg-pn-painting4-c");
+hmpgpnpainting4c.onclick = function() {
+  hmpgpnpainting4m.style.display = "none";
+}
+hmpgpnpainting4m.onclick = function() {
+  hmpgpnpainting4m.style.display = "none";
+}
+
+var hmpgpninteriorm = document.getElementById("hmpg-pn-interior-m");
+var hmpgpninteriortr = document.getElementById("hmpg-pn-interior-tr");
+var hmpgpninteriormc = document.getElementById("hmpg-pn-interior-mc");
+hmpgpninteriortr.onclick = function(){
+  hmpgpninteriorm.style.display = "block";
+  hmpgpninteriormc.src = this.src;
+}
+var hmpgpninteriorc = document.getElementById("hmpg-pn-interior-c");
+hmpgpninteriorc.onclick = function() {
+  hmpgpninteriorm.style.display = "none";
+}
+hmpgpninteriorm.onclick = function() {
+  hmpgpninteriorm.style.display = "none";
+}
+
+var hmpgasoadm = document.getElementById("hmpg-asoad-m");
+var hmpgasoadtr = document.getElementById("hmpg-asoad-tr");
+var hmpgasoadmc = document.getElementById("hmpg-asoad-mc");
+hmpgasoadtr.onclick = function(){
+  hmpgasoadm.style.display = "block";
+  hmpgasoadmc.src = this.src;
+}
+var hmpgasoadc = document.getElementById("hmpg-asoad-c");
+hmpgasoadc.onclick = function() {
+  hmpgasoadm.style.display = "none";
+}
+hmpgasoadm.onclick = function() {
+  hmpgasoadm.style.display = "none";
+}
+
+var hmpgiotm = document.getElementById("hmpg-iot-m");
+var hmpgiottr = document.getElementById("hmpg-iot-tr");
+var hmpgiotmc = document.getElementById("hmpg-iot-mc");
+hmpgiottr.onclick = function(){
+  hmpgiotm.style.display = "block";
+  hmpgiotmc.src = this.src;
+}
+var hmpgiotc = document.getElementById("hmpg-iot-c");
+hmpgiotc.onclick = function() {
+  hmpgiotm.style.display = "none";
+}
+hmpgiotm.onclick = function() {
+  hmpgiotm.style.display = "none";
+}
+
+var hmpgveneer1m = document.getElementById("hmpg-veneer-1-m");
+var hmpgveneer1tr = document.getElementById("hmpg-veneer-1-tr");
+var hmpgveneer1mc = document.getElementById("hmpg-veneer-1-mc");
+hmpgveneer1tr.onclick = function(){
+  hmpgveneer1m.style.display = "block";
+  hmpgveneer1mc.src = this.src;
+}
+var hmpgveneer1c = document.getElementById("hmpg-veneer-1-c");
+hmpgveneer1c.onclick = function() {
+  hmpgveneer1m.style.display = "none";
+}
+hmpgveneer1m.onclick = function() {
+  hmpgveneer1m.style.display = "none";
+}
+
+var hmpgveneer2m = document.getElementById("hmpg-veneer-2-m");
+var hmpgveneer2tr = document.getElementById("hmpg-veneer-2-tr");
+var hmpgveneer2mc = document.getElementById("hmpg-veneer-2-mc");
+hmpgveneer2tr.onclick = function(){
+  hmpgveneer2m.style.display = "block";
+  hmpgveneer2mc.src = this.src;
+}
+var hmpgveneer2c = document.getElementById("hmpg-veneer-2-c");
+hmpgveneer2c.onclick = function() {
+  hmpgveneer2m.style.display = "none";
+}
+hmpgveneer2m.onclick = function() {
+  hmpgveneer2m.style.display = "none";
+}
