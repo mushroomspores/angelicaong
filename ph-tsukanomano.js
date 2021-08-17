@@ -1,5 +1,5 @@
 AOS.init({
-  duration: 1200,
+  duration: 900,
 })
 // js script for ph-tsukanomano.html
 // Get the modal
