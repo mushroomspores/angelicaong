@@ -211,3 +211,33 @@ hmpgreverie1c.onclick = function() {
 hmpgreverie1m.onclick = function() {
   hmpgreverie1m.style.display = "none";
 }
+
+var hmpgreverie4m = document.getElementById("hmpg-reverie-4-m");
+var hmpgreverie4tr = document.getElementById("hmpg-reverie-4-tr");
+var hmpgreverie4mc = document.getElementById("hmpg-reverie-4-mc");
+hmpgreverie4tr.onclick = function(){
+  hmpgreverie4m.style.display = "block";
+  hmpgreverie4mc.src = this.src;
+}
+var hmpgreverie4c = document.getElementById("hmpg-reverie-4-c");
+hmpgreverie4c.onclick = function() {
+  hmpgreverie4m.style.display = "none";
+}
+hmpgreverie4m.onclick = function() {
+  hmpgreverie4m.style.display = "none";
+}
+
+var hmpgreverie3m = document.getElementById("hmpg-reverie-3-m");
+var hmpgreverie3tr = document.getElementById("hmpg-reverie-3-tr");
+var hmpgreverie3mc = document.getElementById("hmpg-reverie-3-mc");
+hmpgreverie3tr.onclick = function(){
+  hmpgreverie3m.style.display = "block";
+  hmpgreverie3mc.src = this.src;
+}
+var hmpgreverie3c = document.getElementById("hmpg-reverie-3-c");
+hmpgreverie3c.onclick = function() {
+  hmpgreverie3m.style.display = "none";
+}
+hmpgreverie3m.onclick = function() {
+  hmpgreverie3m.style.display = "none";
+}

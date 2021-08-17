@@ -605,7 +605,7 @@ div.desc a {
       transition: 0.3s;
     }
     #hmpg-tnmn-5-tr:hover, #hmpg-tnmn-1-tr:hover, #hmpg-tnmn-3-tr:hover, #hmpg-tnmn-7-tr:hover, #hmpg-pn-thunder-tr:hover, #hmpg-pn-trm-ii-tr:hover, #hmpg-pn-tianmu-tr:hover, #hmpg-pn-painting4-tr:hover, #hmpg-pn-interior-tr:hover, #hmpg-asoad-tr:hover, #hmpg-iot-tr:hover, #hmpg-tip-tr:hover, #hmpg-veneer-1-tr:hover, #hmpg-veneer-2-tr:hover {opacity: 0.8; transition: opacity 0.3s;}
-    #hmpg-reverie-1-tr:hover {opacity: 0.8; transition: opacity 0.3s;}
+    #hmpg-reverie-1-tr:hover, #hmpg-reverie-4-tr:hover, #hmpg-reverie-3-tr:hover {opacity: 0.8; transition: opacity 0.3s;}
     /* The Modal (background) */
     .ph-m, .hmpg-m {
       cursor: zoom-out;
