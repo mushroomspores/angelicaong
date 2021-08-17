@@ -241,3 +241,18 @@ hmpgreverie3c.onclick = function() {
 hmpgreverie3m.onclick = function() {
   hmpgreverie3m.style.display = "none";
 }
+
+var hmpgawaashands1m = document.getElementById("hmpg-awaas-hands1-m");
+var hmpgawaashands1tr = document.getElementById("hmpg-awaas-hands1-tr");
+var hmpgawaashands1mc = document.getElementById("hmpg-awaas-hands1-mc");
+hmpgawaashands1tr.onclick = function(){
+  hmpgawaashands1m.style.display = "block";
+  hmpgawaashands1mc.src = this.src;
+}
+var hmpgawaashands1c = document.getElementById("hmpg-awaas-hands1-c");
+hmpgawaashands1c.onclick = function() {
+  hmpgawaashands1m.style.display = "none";
+}
+hmpgawaashands1m.onclick = function() {
+  hmpgawaashands1m.style.display = "none";
+}
