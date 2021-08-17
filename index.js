@@ -196,3 +196,18 @@ hmpgveneer2c.onclick = function() {
 hmpgveneer2m.onclick = function() {
   hmpgveneer2m.style.display = "none";
 }
+
+var hmpgreverie1m = document.getElementById("hmpg-reverie-1-m");
+var hmpgreverie1tr = document.getElementById("hmpg-reverie-1-tr");
+var hmpgreverie1mc = document.getElementById("hmpg-reverie-1-mc");
+hmpgreverie1tr.onclick = function(){
+  hmpgreverie1m.style.display = "block";
+  hmpgreverie1mc.src = this.src;
+}
+var hmpgreverie1c = document.getElementById("hmpg-reverie-1-c");
+hmpgreverie1c.onclick = function() {
+  hmpgreverie1m.style.display = "none";
+}
+hmpgreverie1m.onclick = function() {
+  hmpgreverie1m.style.display = "none";
+}
