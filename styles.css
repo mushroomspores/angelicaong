@@ -270,17 +270,13 @@ a.inlinelink:link {text-decoration: none; color: black;}
 a.inlinelink:visited {color: black;}
 a.inlinelink:hover {color: grey;}
 
-a:link#contacttext1 {text-decoration: none; color: black;}
-a:visited#contacttext1 {color: black;}
-a:hover#contacttext1 {color: grey;}
+a:link#contacttext1 {text-decoration: none; color: grey;}
+a:visited#contacttext1 {color: grey;}
+a:hover#contacttext1 {color: black;}
 
-a:link#contacttext2 {text-decoration: none; color: black;}
-a:visited#contacttext2 {color: black;}
-a:hover#contacttext2 {color: grey;}
-
-a:link#contacttext3 {text-decoration: none; color: black;}
-a:visited#contacttext3 {color: black;}
-a:hover#contacttext3 {color: grey;}
+a:link#contacttext2 {text-decoration: none; color: grey;}
+a:visited#contacttext2 {color: grey;}
+a:hover#contacttext2 {color: black;}
 
 * {
   box-sizing: border-box;
