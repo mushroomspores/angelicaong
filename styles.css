@@ -390,7 +390,7 @@ a:hover#contacttext2 {color: black;}
 }
 .centretitle {text-align: center;}
 #subnavbar {text-align: center;}
-#asoad-1-tr, #trm-ii-1-tr, #trm-i-1-tr, #pn-thunder-1-tr, #mnwp-1-tr, #bk-si-1-tr {
+#asoad-1-tr, #trm-ii-1-tr, #trm-i-1-tr, #pn-thunder-1-tr, #mnwp-1-tr, #bk-si-1-tr, #bk-mt-1-tr {
   width: 30%;
   height: auto;
   margin-left: auto;
@@ -776,7 +776,7 @@ max-width: 50%;
 #unt-tw-caption-middle {display: none;}
 #column-tianmu-spacer {display: none;}
 #tianmu-caption-middle {display: none;}
-#asoad-1-tr, #trm-ii-1-tr, #trm-i-1-tr, #pn-thunder-1-tr, #mnwp-1-tr, #bk-si-1-tr {
+#asoad-1-tr, #trm-ii-1-tr, #trm-i-1-tr, #pn-thunder-1-tr, #mnwp-1-tr, #bk-si-1-tr, #bk-mt-1-tr {
   width: 50%;
   height: auto;
   margin-left: auto;
@@ -820,7 +820,7 @@ max-width: 100%;
 #column-tianmu-spacer {display: none;}
 #tianmu-caption-bottom {display: none;}
 #tianmu-caption-middle {display: block;}
-#asoad-1-tr, #iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr, #trm-ii-1-tr, #trm-i-1-tr, #pn-thunder-1-tr, #mnwp-1-tr, #bk-awaas-9-tr, #bk-si-1-tr {
+#asoad-1-tr, #iot-1-tr, #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr, #trm-ii-1-tr, #trm-i-1-tr, #pn-thunder-1-tr, #mnwp-1-tr, #bk-awaas-9-tr, #bk-si-1-tr, #bk-mt-1-tr {
   width: 100%;
   height: auto;
   margin-left: auto;
@@ -839,7 +839,7 @@ font-weight: 300;
 /* NOTE: site-wide animations */
 .centretitle, #subnavbar, #navbar, #header, #cvexhibitions, #cveducation, #contact {animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:1}}
 
-/* Slideshow for Poem 2*/
+/* SLIDESHOW FOR POEM 2*/
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -913,4 +913,96 @@ font-weight: 300;
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/*SLIDESHOW GALLERY WITH THUMBNAILS FOR MINUTE TREMBLINGS*/
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container-mt {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides-mt {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor-mt {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev-mt,
+.next-mt {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: grey;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next-mt {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-mt:hover,
+.next-mt:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext-mt {
+  color: grey;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container-mt {
+  text-align: center;
+  padding: 2px 16px;
+  color: grey;
+  padding: 1em;
+  font-size: 1vw;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.row-mt:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column-mt {
+  float: left;
+  width: 9.09%;
+  padding: 0.5em;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo-mt {
+  opacity: 0.6;
+}
+
+.active,
+.demo-mt:hover {
+  opacity: 1;
 }
