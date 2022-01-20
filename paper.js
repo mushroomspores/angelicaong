@@ -347,36 +347,6 @@ pa5m.onclick = function() {
   pa5m.style.display = "none";
 }
 
-var pa4m = document.getElementById("pa-4-m");
-var pa4tr = document.getElementById("pa-4-tr");
-var pa4mc = document.getElementById("pa-4-mc");
-pa4tr.onclick = function(){
-  pa4m.style.display = "block";
-  pa4mc.src = paperimages.jpg.src;
-}
-  var pa4c = document.getElementById("pa-4-c");
-pa4c.onclick = function() {
-  pa4m.style.display = "none";
-}
-pa4m.onclick = function() {
-  pa4m.style.display = "none";
-}
-
-var pa3m = document.getElementById("pa-3-m");
-var pa3tr = document.getElementById("pa-3-tr");
-var pa3mc = document.getElementById("pa-3-mc");
-pa3tr.onclick = function(){
-  pa3m.style.display = "block";
-  pa3mc.src = paperimages.jpg.src;
-}
-  var pa3c = document.getElementById("pa-3-c");
-pa3c.onclick = function() {
-  pa3m.style.display = "none";
-}
-pa3m.onclick = function() {
-  pa3m.style.display = "none";
-}
-
 var pa2m = document.getElementById("pa-2-m");
 var pa2tr = document.getElementById("pa-2-tr");
 var pa2mc = document.getElementById("pa-2-mc");

@@ -16,6 +16,12 @@ pa10fc.onclick = function() {
 pa10fm.onclick = function() {
   pa10fm.style.display = "none";
 }
+pa10ftr.addEventListener("mouseover", function() {
+  pa10ftr.style.opacity = 0.7 ;
+})
+pa10ftr.addEventListener("mouseout", function() {
+  pa10ftr.style.opacity = 1.0 ;
+})
 
 var pa10bm = document.getElementById("pa-10b-m");
 var pa10btr = document.getElementById("pa-10b-tr");
@@ -31,3 +37,9 @@ pa10bc.onclick = function() {
 pa10bm.onclick = function() {
   pa10bm.style.display = "none";
 }
+pa10btr.addEventListener("mouseover", function() {
+  pa10btr.style.opacity = 0.7 ;
+})
+pa10btr.addEventListener("mouseout", function() {
+  pa10btr.style.opacity = 1.0 ;
+})
