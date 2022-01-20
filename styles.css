@@ -231,6 +231,10 @@ a:link#paintingbtn {text-decoration: none; color: grey;}
 a:visited#paintingbtn {color: grey;}
 a:hover#paintingbtn {color: black;}
 
+a:link#paperbtn {text-decoration: none; color: grey;}
+a:visited#paperbtn {color: grey;}
+a:hover#paperbtn {color: black;}
+
 a:link#dropbtn2 {text-decoration: none; color: grey;}
 a:visited#dropbtn2 {color: grey;}
 a:hover#dropbtn2 {color: black;}
