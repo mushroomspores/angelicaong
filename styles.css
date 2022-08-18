@@ -33,37 +33,22 @@ html {
     line-height: 1.4;
   }
   ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
+
   }
   li {
-    display: inline;
-    float: left;
-    padding-right: 1vw;
-    padding-left: 0.2vw;
+
   }
   li a, .dropbtn {
-    display: inline-block;
-    text-decoration: none;
-    color: grey;
-    text-align: left;
-    padding-right: 0.5vw;
+
   }
   li.dropdown {
-    display: inline-block;
+
   }
   .dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    background-color: #F9F8F2;
+
   }
   .dropdown-content a {
-    text-decoration: none;
-    display: block;
-    text-align: left;
+
   }
 }
 
@@ -97,35 +82,22 @@ html {
     line-height: 1.4;
   }
   ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
+
   }
   li {
-    display: inline;
-    float: left;
+
   }
   li a, .dropbtn {
-    display: inline-block;
-    text-decoration: none;
-    color: grey;
-    text-align: left;
-    padding-right: 0.5vw;
+
   }
   li.dropdown {
-    display: inline-block;
+
   }
   .dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    background-color: #F9F8F2;
+
   }
   .dropdown-content a {
-    text-decoration: none;
-    display: block;
-    text-align: left;
+
   }
 }
 
@@ -137,10 +109,19 @@ html {
     font-family: 'Cormorant', serif;
     font-weight: 400;
     padding: 0;
+    position: fixed;
+    margin-top: 5vh;
+    margin-left: 1.5vw;
   }
   small {
     color: grey;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  }
+  h3 {
+    color: black;
+    font-size: 1.1vw;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
   }
@@ -159,61 +140,48 @@ html {
     line-height: 1.4;
   }
   ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
+  list-style-type: none;
+  margin-top: 20vh;
+  margin-left: 1.5vw;
+  padding: 0;
+  width: 8%;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
   }
   li {
-    display: inline;
-    float: left;
+    padding: 0 0 0.5vw;
   }
-  li a, .dropbtn {
-    display: inline-block;
-    text-decoration: none;
-    color: grey;
-    text-align: left;
-    padding-right: 0.5vw;
+  li a {}
+  ul.subnav {
+    list-style-type: none;
+    margin-top: 20vh;
+    margin-left: 10.5vw;
+    padding: 0;
+    width: 8%;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
   }
-  li.dropdown {
-    display: inline-block;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    background-color: #F9F8F2;
-  }
-  .dropdown-content a {
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
+  #subnavbar {display: none;}
 }
 /* end of size adjustments for fonts and header */
-.dropbtn2 {
-  display: inline-block;
-  text-decoration: none;
-  color: grey;
-  text-align: left;
-  padding-right: 0.5vw;
-}
 
-a:link#dropbtn {text-decoration: none; color: grey;}
-a:visited#dropbtn {color: grey;}
-a:hover#dropbtn {color: black;}
+a:link#dropbtn {text-decoration: none; color: black;}
+a:visited#dropbtn {color: black;}
+a:hover#dropbtn {color: grey;}
 
-a:link#cvbtn {text-decoration: none; color: grey;}
-a:visited#cvbtn {color: grey;}
-a:hover#cvbtn {color: black;}
+a:link#cvbtn {text-decoration: none; color: black;}
+a:visited#cvbtn {color: black;}
+a:hover#cvbtn {color: grey;}
 
-a:link#publicationsbtn {text-decoration: none; color: grey;}
-a:visited#publicationsbtn {color: grey;}
-a:hover#publicationsbtn {color: black;}
+a:link#publicationsbtn {text-decoration: none; color: black;}
+a:visited#publicationsbtn {color: black;}
+a:hover#publicationsbtn {color: grey;}
 
-a:link#contactbtn {text-decoration: none; color: grey;}
-a:visited#contactbtn {color: grey;}
-a:hover#contactbtn {color: black;}
+a:link#contactbtn {text-decoration: none; color: black;}
+a:visited#contactbtn {color: black;}
+a:hover#contactbtn {color: grey;}
 
 a:link#photographybtn {text-decoration: none; color: grey;}
 a:visited#photographybtn {color: grey;}
@@ -239,13 +207,13 @@ a:link#dropbtn2 {text-decoration: none; color: grey;}
 a:visited#dropbtn2 {color: grey;}
 a:hover#dropbtn2 {color: black;}
 
-a:link#booksbtn {text-decoration: none; color: grey;}
-a:visited#booksbtn {color: grey;}
-a:hover#booksbtn {color: black;}
+a:link#booksbtn {text-decoration: none; color: black;}
+a:visited#booksbtn {color: black;}
+a:hover#booksbtn {color: grey;}
 
-a:link#writingbtn {text-decoration: none; color: grey;}
-a:visited#writingbtn {color: grey;}
-a:hover#writingbtn {color: black;}
+a:link#writingbtn {text-decoration: none; color: black;}
+a:visited#writingbtn {color: black;}
+a:hover#writingbtn {color: grey;}
 
 a:link#oilbtn-o {text-decoration: none; color: black;}
 a:visited#oilbtn-o {color: black;}
@@ -262,7 +230,7 @@ a:link#watercolourbtn-w {text-decoration: none; color: black;}
 a:visited#watercolourbtn-w {color: black;}
 a:hover#watercolourbtn-w {color: grey;}
 
-.dropdown:hover .dropdown-content {display: block;}
+.subnav:hover {display: block;}
 li a.active {color: black;}
 li a:hover:not(.active) {color: grey;}
 
@@ -393,7 +361,6 @@ a:hover#contacttext2 {color: black;}
   display: none;
 }
 .centretitle {text-align: center;}
-#subnavbar {text-align: center;}
 #asoad-1-tr, #trm-ii-1-tr, #trm-i-1-tr, #pn-thunder-1-tr, #mnwp-1-tr, #bk-si-1-tr, #bk-mt-1-tr {
   width: 30%;
   height: auto;
@@ -445,8 +412,10 @@ div.desc a {
 .responsive {
   padding-left: 2.3em;
   padding-right: 2.3em;
-  float: left;
-  width: 24.99999%;
+  margin-left: 1em;
+  margin-right: 1em;
+  float: right;
+  width: 28%;
 }
 .responsive-video {
   padding-left: 2.3em;
@@ -841,7 +810,7 @@ font-family: 'Open Sans', sans-serif;
 font-weight: 300;
 }
 /* NOTE: site-wide animations */
-.centretitle, #subnavbar, #navbar, #header, #cvexhibitions, #cveducation, #contact {animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.centretitle, #navbar, #subnavbar-ph, #header, #cvexhibitions, #cveducation, #contact {animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:1}}
 
 /* SLIDESHOW FOR POEM 2*/
 * {box-sizing:border-box}
