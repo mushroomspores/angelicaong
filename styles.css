@@ -631,8 +631,8 @@ div.desc a {
     .ph-mc {
       margin: auto;
       display: block;
-      height: 80vh;
-      max-height: 800px;
+      height: 100%;
+      max-height: 100%;
       object-fit: contain;
     }
     /* Add Animation */
@@ -670,7 +670,7 @@ div.desc a {
 .row-one {
 display: flex;
 flex-wrap: wrap;
-padding: 0 0 0 65%;
+padding: 0 1% 0 65%;
 }
 
 /* Create one column */
@@ -685,6 +685,8 @@ margin-top: 8px;
 vertical-align: middle;
 width: 100%;
 }
+
+img.ph-tr:hover {opacity: 0.7;}
 
 .row-vn {
 display: flex;
