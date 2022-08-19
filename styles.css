@@ -152,13 +152,23 @@ html {
   li {
     padding: 0 0 0.5vw;
   }
-  li a {}
+
   ul.subnav {
     list-style-type: none;
     margin-top: 20vh;
     margin-left: 10.5vw;
     padding: 0;
     width: 8%;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+  ul.subsubnav {
+    list-style-type: none;
+    margin-top: 20vh;
+    margin-left: 21.5vw;
+    padding: 0;
+    width: 20%;
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
@@ -230,9 +240,21 @@ a:link#watercolourbtn-w {text-decoration: none; color: black;}
 a:visited#watercolourbtn-w {color: black;}
 a:hover#watercolourbtn-w {color: grey;}
 
-.subnav:hover {display: block;}
-li a.active {color: black;}
-li a:hover:not(.active) {color: grey;}
+.subnav:hover {
+  {display: block;}
+  li a.active {color: black;}
+  li a:hover:not(.active) {color: grey;}
+}
+
+a.subsubnav:link {text-decoration: none; color: grey;}
+a.subsubnav:visited {color: grey;}
+a.subsubnav:hover {color: black;}
+
+.subsubnav:hover {
+  {display: block;}
+  li a.active {color: black;}
+  li a:hover:not(.active) {color: grey;}
+  }
 
 a:link#header {text-decoration: none; color: black;}
 a:visited#header {color: black;}
@@ -411,6 +433,14 @@ div.desc a {
 
 .responsive {
   padding-left: 38em;
+  padding-right: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+  float: right;
+  width: 100%;
+}
+.responsive-ph {
+  padding-left: 45em;
   padding-right: 3em;
   margin-left: 1em;
   margin-right: 1em;
@@ -810,7 +840,7 @@ font-family: 'Open Sans', sans-serif;
 font-weight: 300;
 }
 /* NOTE: site-wide animations */
-.centretitle, #navbar, #subnavbar-ph, #header, #cvexhibitions, #cveducation, #contact {animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.centretitle, #navbar, #subnavbar-ph, #subsubnavbar-ph, #header, #cvexhibitions, #cveducation, #contact {animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:1}}
 
 /* SLIDESHOW FOR POEM 2*/
 * {box-sizing:border-box}
