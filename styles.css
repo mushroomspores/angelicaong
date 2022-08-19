@@ -38,7 +38,7 @@ html {
   li {
 
   }
-  li a, .dropbtn {
+  li a {
 
   }
   li.dropdown {
@@ -50,6 +50,7 @@ html {
   .dropdown-content a {
 
   }
+
 }
 
 /* mini laptop size */
@@ -173,7 +174,6 @@ html {
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
   }
-  #subnavbar {display: none;}
 }
 /* end of size adjustments for fonts and header */
 
@@ -835,7 +835,26 @@ font-family: 'Open Sans', sans-serif;
 font-weight: 300;
 }
 /* NOTE: site-wide animations */
-.centretitle, #navbar, #subnavbar-ph, #subsubnavbar-ph, #header, #cvexhibitions, #cveducation, #contact {animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.centretitle, #navbar, #header, #cvexhibitions, #cveducation, #contact {animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:1}}
+
+/* Fading animation for .subsubnav */
+.fadeintoleft {
+  -webkit-animation-name: fadeintoleft;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fadeintoleft;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeintoleft {
+  from {opacity: 0; left: -10%;}
+  to {opacity: 1; left: 3.5%;}
+}
+
+@keyframes fadeintoleft {
+  from {opacity: 0; left: -10%;}
+  to {opacity: 1; left: 3.5%;}
+}
+
 
 /* SLIDESHOW FOR POEM 2*/
 * {box-sizing:border-box}
