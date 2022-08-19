@@ -410,12 +410,12 @@ div.desc a {
 }
 
 .responsive {
-  padding-left: 2.3em;
-  padding-right: 2.3em;
+  padding-left: 38em;
+  padding-right: 3em;
   margin-left: 1em;
   margin-right: 1em;
   float: right;
-  width: 28%;
+  width: 100%;
 }
 .responsive-video {
   padding-left: 2.3em;
@@ -438,7 +438,7 @@ div.desc a {
 
 @media only screen and (max-width: 1000px) {
   .responsive {
-    width: 49.99999%;
+    width: 100%;
     margin: 6px 0;
   }
   .responsive-video {
@@ -879,12 +879,12 @@ font-weight: 300;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
+  from {opacity: 0}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: 0}
   to {opacity: 1}
 }
 
