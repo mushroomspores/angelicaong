@@ -413,6 +413,20 @@ div.gallery img {
   height: auto;
 }
 
+div.modal {
+  border: 0px solid grey;
+}
+
+div.modal {
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+div.modal img {
+  width: 100%;
+  height: auto;
+}
+
 div.desc {
   padding: 1em;
   text-align: center;
@@ -587,31 +601,24 @@ div.desc a {
   }
       /* Style the Image Used to Trigger the Modal */
     .ph-tr {
-      cursor: zoom-in;
-      transition: 0.3s;
+      cursor: pointer;
     }
-    .ph-tr:hover {opacity: 0.7;}
     .painting-tr {
-      cursor: zoom-in;
+      cursor: pointer;
       transition: 0.3s;
       width: auto;
       height: 40vh;
       margin-top: 1.5em;
     }
     .painting-tr:hover {opacity: 0.7;}
-    .hmpg-tr {
-      cursor: pointer;
-      transition: 0.3s;
-    }
-    #hmpg-tnmn-5-tr:hover, #hmpg-tnmn-1-tr:hover, #hmpg-tnmn-3-tr:hover, #hmpg-tnmn-7-tr:hover, #hmpg-pn-thunder-tr:hover, #hmpg-pn-trm-ii-tr:hover, #hmpg-pn-tianmu-tr:hover, #hmpg-pn-painting4-tr:hover, #hmpg-pn-interior-tr:hover, #hmpg-asoad-tr:hover, #hmpg-iot-tr:hover, #hmpg-tip-tr:hover, #hmpg-veneer-1-tr:hover, #hmpg-veneer-2-tr:hover {opacity: 0.8; transition: opacity 0.3s;}
-    #hmpg-reverie-1-tr:hover, #hmpg-reverie-4-tr:hover, #hmpg-reverie-3-tr:hover, #hmpg-awaas-hands1-tr:hover, #hmpg-awaas-hand-tr:hover, #hmpg-awaas-hands2-tr:hover, #hmpg-awaas-12-tr:hover, #hmpg-awaas-thunder-tr:hover, #hmpg-si-dappled-tr:hover, #hmpg-si-casino-tr:hover, #hmpg-si-ttg-tr:hover, #hmpg-si-1-tr:hover, #hmpg-bdst1-tr:hover {opacity: 0.8; transition: opacity 0.3s;}
+
     /* The Modal (background) */
-    .ph-m, .hmpg-m {
-      cursor: zoom-out;
+    .ph-m {
+      cursor: pointer;
       display: none; /* Hidden by default */
       position: fixed; /* Stay in place */
       z-index: 1; /* Sit on top */
-      padding-top: 100px; /* Location of the box */
+      padding-top: 0; /* Location of the box */
       left: 0;
       top: 0;
       width: 100%; /* Full width */
@@ -621,7 +628,7 @@ div.desc a {
       background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
     }
     /* Modal Content (Image) */
-    .ph-mc, .hmpg-mc {
+    .ph-mc {
       margin: auto;
       display: block;
       height: 80vh;
@@ -629,7 +636,7 @@ div.desc a {
       object-fit: contain;
     }
     /* Add Animation */
-    .ph-mc, #caption, .hmpg-mc {
+    .ph-mc, #caption {
       -webkit-animation-name: zoom;
       -webkit-animation-duration: 0.3s;
       animation-name: zoom;
@@ -652,18 +659,6 @@ div.desc a {
       font-size: 40px;
       font-weight: bold;
       transition: 0.3s;
-    }
-    .ph-c:hover,
-    .ph-c:focus {
-      color: #bbb;
-      text-decoration: none;
-      cursor: pointer;
-    }
-    .hmpg-c:hover,
-    .hmpg-c:focus {
-      color: #bbb;
-      text-decoration: none;
-      cursor: pointer;
     }
     /* 100% Image Width on Smaller Screens */
     @media only screen and (max-width: 700px){
