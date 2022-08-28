@@ -2,85 +2,86 @@
 
 <html>
 
-  <head>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="icon.png">
-    <title>Angelica Ong | Art</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="og:title" content="Angelica Ong | Art">
-    <meta name="og:image" content="icon.png">
-    <meta name="og:site_name" content="Angelica Ong | Art">
-    <script defer src="painting.js"></script>
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;1,300;1,400&family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
-  </head>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet"href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="icon" type="image/png" href="icon.png">
+  <title>Angelica Ong | Art</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="og:title" content="Angelica Ong | Art">
+  <meta name="og:image" content="icon.png">
+  <meta name="og:site_name" content="Angelica Ong | Art">
+  <script defer src="painting.js"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;1,300;1,400&family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
 
-  <body>
-    <div class="row1">
-      <div class="col-es-12 col-s-12 col-m-12 col-12 col-l-12" id="break1">
-        <br>
-      </div>
-    </div>
+<body>
+  <div class="col-es-12 col-s-12 col-m-12 col-12 col-l-12" id="break1">
+    <br>
+    <br>
+  </div>
 
-    <div class="row2">
-      <div class="col-es-12 col-s-12 col-m-12 col-12 col-l-12">
-          <a id="header" href="index.html"> Angelica Ong </a>
-      </div>
-    </div>
+  <div class="col-es-12 col-s-12 col-m-12 col-12 col-l-12">
+      <a id="header" href="index.html"> Angelica Ong </a>
+  </div>
 
-    <div class="col-es-12 col-s-12 col-m-12 col-12 col-l-12" id="navbar">
+  <div>
+    <div class="col-es-4 col-s-4 col-m-4 col-4 col-l-4" id="navbar">
       <small>
         <ul>
-          <li class="dropdown">
-            <a href="#" class="dropbtn" id="dropbtn">Artworks</a>
-            <div class="dropdown-content" id="dropdown-content">
-              <a id="photographybtn" href="photography.html">Photography</a>
-              <a id="installationbtn" href="installation.html">Installation</a>
-              <a id="videobtn" href="video.html">Video</a>
-              <a id="paintingbtn" href="painting.html">Painting</a>
-              <a id="paperbtn" href="paper.html">Paper</a>
-            </div>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropbtn2" id="dropbtn2">Publications</a>
-            <div class="dropdown-content" id="dropdown-content-2">
-              <a id="booksbtn" href="books.html">Books</a>
-              <a id="writingbtn" href="writing.html">Writing</a>
-            </div>
-          </li>
+          <li><a href="index.html" class="dropbtn" id="dropbtn">Artworks ¬</li>
+          <li><a id="booksbtn" href="books.html">Books</a></li>
           <li><a id="cvbtn" href="cv.html">CV</a></li>
           <li><a id="contactbtn" href="contact.html">Contact</a></li>
         </ul>
       </small>
     </div>
 
-    <div class="col-es-12 col-s-12 col-m-12 col-12 col-l-12" id="spacer">
-      <br>
+    <div class="fade col-es-4 col-s-4 col-m-4 col-4 col-l-4" id="subnavbar-ph">
+      <small>
+        <ul class="subnav" id="artworks-dropdown">
+          <li><a id="photographybtn" href="photography.html">Photography</a></li>
+          <li><a id="installationbtn" href="installation.html">Installation</a></li>
+          <li><a id="videobtn" href="video.html">Video</a></li>
+          <li><a id="paintingbtn" href="painting.html">Painting</a></li>
+          <li><a id="paintingbtn" href="painting.html">&nbsp&nbsp Oil ¬</a></li>
+          <li><a id="paintingbtn" href="watercolourpainting.html">&nbsp&nbsp Watercolour</a></li>
+          <li><a id="paperbtn" href="paper.html">Paper</a></li>
+        </ul>
+      </small>
     </div>
 
-    <div class="col-es-12 col-s-12 col-m-12 col-12 col-l-12">
-      <h2 class="centretitle" id="painting">
-          Painting
-      </h2>
+    <div class="col-es-4 col-s-4 col-m-4 col-4 col-l-4" id="subsubnavbar-ph">
+      <small>
+        <i><ul class="subsubnav fadeintoleft" id="artworks-dropdown">
+          <li><a class="subsubnav" href="pn-interior.html">Interior</a></li>
+          <li><a class="subsubnav" href="pn-painting4.html">Painting #4</a></li>
+          <li><a class="subsubnav" href="pn-painting3.html">Painting #3</a></li>
+          <li><a class="subsubnav" href="#painting2-tr">Painting #2</a></li>
+          <li><a class="subsubnav" href="#painting1-tr">Painting #1</a></li>
+          <li><a class="subsubnav" href="#unt-pg-tr">Untitled (Payne's Grey)</a></li>
+          <li><a class="subsubnav" href="pn-unt-tw.html">Untitled (Titanium White)</a></li>
+          <li><a class="subsubnav" href="pn-tianmu.html"><span lang="zh">≪天幕≫</span> Tian Mu</a></li>
+        </ul></i>
+      </small>
     </div>
+  </div>
 
-    <div class="col-es-12 col-s-12 col-m-12 col-12 col-l-12" id="subnavbar">
-      <small><a href="painting.html" id="oilbtn-o">Oil</a> | <a href="watercolourpainting.html" id="watercolourbtn-o">Watercolour</a></small>
-    </div>
+  <div class="col-es-12 col-s-12 col-m-12 col-12 col-l-12">
+    <br><br>
+  </div>
 
-    <div class="col-es-12 col-s-12 col-m-12 col-12 col-l-12">
-      <br>
-    </div>
-
+  <div style="margin-left:25%;" class="fade">
     <div class="responsive">
       <div class="gallery">
         <a href="pn-interior.html">
-          <img src="paintingimages/interior-oil-on-organdy-686x457mm-2021-angelicaong-1-thumbnail.png" class="paintingimages" data-aos="zoom-in-up">
+          <img src="paintingimages/interior-oil-on-organdy-686x457mm-2021-angelicaong-1.jpg" class="paintingimages">
         </a>
-        <div class="desc" data-aos="fade-up">
+        <div class="desc">
           <a href="pn-interior.html"><i>Interior</i></a>, 2021
           <br>Oil on organdy
           <br>68.6 x 45.7 cm (27 x 18 in)
@@ -91,9 +92,9 @@
     <div class="responsive">
       <div class="gallery">
         <a href="pn-painting4.html">
-          <img src="paintingimages/painting-4-oil-on-organdy-457x686mm-2021-angelicaong-1-thumbnail.png" class="paintingimages" data-aos="zoom-in-up">
+          <img src="paintingimages/painting-4-oil-on-organdy-457x686mm-2021-angelicaong-1.jpg" class="paintingimages">
         </a>
-        <div class="desc" data-aos="fade-up">
+        <div class="desc">
           <a href="pn-painting4.html"><i>Painting #4</i></a>, 2021
           <br>Oil on organdy
           <br>45.7 x 68.6 cm (18 x 27 in)
@@ -104,9 +105,9 @@
     <div class="responsive">
       <div class="gallery">
         <a href="pn-painting3.html">
-          <img src="paintingimages/painting-3-oil-on-combed-cotton-and-mulberry-paper-457x686mm-2021-angelicaong-1-thumbnail.png" class="paintingimages" data-aos="zoom-in-up">
+          <img src="paintingimages/painting-3-oil-on-combed-cotton-and-mulberry-paper-457x686mm-2021-angelicaong-1.jpg" class="paintingimages">
         </a>
-        <div class="desc" data-aos="fade-up">
+        <div class="desc">
           <a href="pn-painting3.html"><i>Painting #3</i></a>, 2021
           <br>Oil on combed cotton and mulberry paper
           <br>45.7 x 68.6 cm (18 x 27 in)
@@ -116,8 +117,8 @@
 
     <div class="responsive">
       <div class="gallery">
-        <img src="paintingimages/painting-2-oil-on-canvas-254x203mm-2021-angelicaong-thumbnail.png" class="painting-tr" id="painting2-tr" data-aos="zoom-in-up">
-        <div class="desc" data-aos="fade-up">
+        <img src="paintingimages/painting-2-oil-on-canvas-254x203mm-2021-angelicaong.jpg" class="painting-tr" id="painting2-tr">
+        <div class="desc">
           <i>Painting #2</i>, 2021
           <br>Oil on canvas
           <br>25.4 x 20.3 cm (10 x 8 in)
@@ -125,18 +126,14 @@
       </div>
       <div id="painting2-m" class="ph-m">
         <span id="painting2-c" class="ph-c">&times;</span>
-        <img src="paintingimages/painting-2-oil-on-canvas-254x203mm-2021-angelicaong.jpg" class="ph-mc" id="painting2-mc">
+        <img src="paintingimages/painting-2-oil-on-canvas-254x203mm-2021-angelicaong.jpg" class="ph-mc">
       </div>
-    </div>
-
-    <div class="col-es-12 col-s-12 col-m-12 col-12 col-l-12">
-      <br>
     </div>
 
     <div class="responsive">
       <div class="gallery">
-        <img src="paintingimages/painting-1-oil-on-canvas-305x203mm-2021-angelicaong-thumbnail.png" class="painting-tr" id="painting1-tr" data-aos="zoom-in-up">
-        <div class="desc" data-aos="fade-up">
+        <img src="paintingimages/painting-1-oil-on-canvas-305x203mm-2021-angelicaong.jpg" class="painting-tr" id="painting1-tr">
+        <div class="desc">
           <i>Painting #1</i>, 2021
           <br>Oil on canvas
           <br>30.5 x 20.3 cm (12 x 8 in)
@@ -150,8 +147,8 @@
 
     <div class="responsive">
       <div class="gallery">
-        <img src="paintingimages/untitled-paynes-grey-oil-on-canvas-279x356mm-2021-angelicaong-thumbnail.png" class="painting-tr" id="unt-pg-tr" data-aos="zoom-in-up">
-        <div class="desc" data-aos="fade-up">
+        <img src="paintingimages/untitled-paynes-grey-oil-on-canvas-279x356mm-2021-angelicaong.jpg" class="painting-tr" id="unt-pg-tr">
+        <div class="desc">
           <i>Untitled (Payne's Grey)</i>, 2021
           <br>Oil on canvas
           <br>27.9 x 35.6 cm (11 x 14 in)
@@ -166,9 +163,9 @@
     <div class="responsive">
       <div class="gallery">
         <a href="pn-unt-tw.html">
-          <img src="paintingimages/untitled-titanium-white-oil-on-organdy-457x686mm-2021-angelicaong-1-thumbnail.png" class="paintingimages" data-aos="zoom-in-up">
+          <img src="paintingimages/untitled-titanium-white-oil-on-organdy-457x686mm-2021-angelicaong-1.jpg" class="paintingimages">
         </a>
-        <div class="desc" data-aos="fade-up">
+        <div class="desc">
           <a href="pn-unt-tw.html"><i>Untitled (Titanium White)</i></a>, 2021
           <br>Oil on organdy
           <br>45.7 x 68.6 cm (18 x 27 in)
@@ -179,15 +176,16 @@
     <div class="responsive">
       <div class="gallery">
         <a href="pn-tianmu.html">
-          <img src="paintingimages/tianmu-oil-on-organdy-305x203mm-2021-angelicaong-1-thumbnail.png" class="paintingimages" data-aos="zoom-in-up">
+          <img src="paintingimages/tianmu-oil-on-organdy-305x203mm-2021-angelicaong-1.jpg" class="paintingimages">
         </a>
-        <div class="desc" data-aos="fade-up">
+        <div class="desc">
           <a href="pn-tianmu.html"><span lang="zh">《天幕》</span><i>Tian Mu</i></a>, 2021
           <br>Oil on organdy
           <br>30.5 x 20.3 cm (12 x 8 in)
         </div>
       </div>
     </div>
+  </div>
 
     <div class="clearfix"></div>
 
