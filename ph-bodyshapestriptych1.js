@@ -50,3 +50,18 @@ bdstOne3c.onclick = function() {
 bdstOne3m.onclick = function() {
   bdstOne3m.style.display = "none";
 }
+
+var bdstOne4m = document.getElementById("bdst1-4-m");
+var bdstOne4tr = document.getElementById("bdst1-4-tr");
+var bdstOne4mc = document.getElementById("bdst1-4-mc");
+bdstOne4tr.onclick = function(){
+  bdstOne4m.style.display = "block";
+  bdstOne4mc.src = photographyimages/bodyshapestriptych1/bodyshapestriptych1-grid1-2019-angelicaong.jpg.src;
+}
+var bdstOne4c = document.getElementById("bdst1-4-c");
+bdstOne4c.onclick = function() {
+  bdstOne4m.style.display = "none";
+}
+bdstOne4m.onclick = function() {
+  bdstOne4m.style.display = "none";
+}
