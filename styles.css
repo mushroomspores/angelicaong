@@ -177,7 +177,7 @@ html {
   ul.subsubnav {
     list-style-type: none;
     margin-top: 20vh;
-    margin-left: 21.5vw;
+    margin-left: 13vw;
     padding: 0;
     width: 20%;
     height: 100%; /* Full height */
@@ -203,25 +203,25 @@ a:link#contactbtn {text-decoration: none; color: black;}
 a:visited#contactbtn {color: black;}
 a:hover#contactbtn {color: grey;}
 
-a:link#photographybtn {text-decoration: none; color: grey;}
-a:visited#photographybtn {color: grey;}
-a:hover#photographybtn {color: black;}
+a:link#photographybtn {text-decoration: none; color: black;}
+a:visited#photographybtn {color: black;}
+a:hover#photographybtn {color: grey;}
 
-a:link#installationbtn {text-decoration: none; color: grey;}
-a:visited#installationbtn {color: grey;}
-a:hover#installationbtn {color: black;}
+a:link#installationbtn {text-decoration: none; color: black;}
+a:visited#installationbtn {color: black;}
+a:hover#installationbtn {color: grey;}
 
-a:link#videobtn {text-decoration: none; color: grey;}
-a:visited#videobtn {color: grey;}
-a:hover#videobtn {color: black;}
+a:link#videobtn {text-decoration: none; color: black;}
+a:visited#videobtn {color: black;}
+a:hover#videobtn {color: grey;}
 
-a:link#paintingbtn {text-decoration: none; color: grey;}
-a:visited#paintingbtn {color: grey;}
-a:hover#paintingbtn {color: black;}
+a:link#paintingbtn {text-decoration: none; color: black;}
+a:visited#paintingbtn {color: black;}
+a:hover#paintingbtn {color: grey;}
 
-a:link#paperbtn {text-decoration: none; color: grey;}
-a:visited#paperbtn {color: grey;}
-a:hover#paperbtn {color: black;}
+a:link#paperbtn {text-decoration: none; color: black;}
+a:visited#paperbtn {color: black;}
+a:hover#paperbtn {color: grey;}
 
 a:link#dropbtn2 {text-decoration: none; color: grey;}
 a:visited#dropbtn2 {color: grey;}
@@ -238,14 +238,14 @@ a:hover#writingbtn {color: grey;}
 a:link#oilbtn-o {text-decoration: none; color: black;}
 a:visited#oilbtn-o {color: black;}
 a:hover#oilbtn-o {color: grey;}
-a:link#watercolourbtn-o {text-decoration: none; color: grey;}
-a:visited#watercolourbtn-o {color: grey;}
-a:hover#watercolourbtn-o {color: black;}
-a:active#watercolourbtn-o {color: black;}
+a:link#watercolourbtn-o {text-decoration: none; color: black;}
+a:visited#watercolourbtn-o {color: black;}
+a:hover#watercolourbtn-o {color: grey;}
+a:active#watercolourbtn-o {color: grey;}
 
-a:link#oilbtn-w {text-decoration: none; color: grey;}
-a:visited#oilbtn-w {color: grey;}
-a:hover#oilbtn-w {color: black;}
+a:link#oilbtn-w {text-decoration: none; color: black;}
+a:visited#oilbtn-w {color:  black;}
+a:hover#oilbtn-w {color: grey;}
 a:link#watercolourbtn-w {text-decoration: none; color: black;}
 a:visited#watercolourbtn-w {color: black;}
 a:hover#watercolourbtn-w {color: grey;}
@@ -924,18 +924,18 @@ max-width: 100%;
 /* Fading animation for .subsubnav */
 .fadeintoleft {
   -webkit-animation-name: fadeintoleft;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 1s;
   animation-name: fadeintoleft;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes fadeintoleft {
-  from {opacity: 0; left: -5%;}
+  from {opacity: 0; left: 0%;}
   to {opacity: 1; left: 3.5%;}
 }
 
 @keyframes fadeintoleft {
-  from {opacity: 0; left: -5%;}
+  from {opacity: 0; left: 0%;}
   to {opacity: 1; left: 3.5%;}
 }
 
