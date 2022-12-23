@@ -246,6 +246,10 @@ a:link#cvbtn {text-decoration: none; color: black;}
 a:visited#cvbtn {color: black;}
 a:hover#cvbtn {color: grey;}
 
+a:link#exhibitionsbtn {text-decoration: none; color: black;}
+a:visited#exhibitionsbtn {color: black;}
+a:hover#exhibitionsbtn {color: grey;}
+
 a:link#publicationsbtn {text-decoration: none; color: black;}
 a:visited#publicationsbtn {color: black;}
 a:hover#publicationsbtn {color: grey;}
