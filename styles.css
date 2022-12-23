@@ -2,6 +2,19 @@ html {
   background-color: #F9F8F2;
 }
 
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
 
 /* start of size adjustments for fonts and header */
 /* phone screen size */
