@@ -1,25 +1,6 @@
 AOS.init({
   duration: 900,
 })
-//js script for ph-veneer.html
-// Get the modal
-var bksi1m = document.getElementById("bk-si-1-m");
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var bksi1tr = document.getElementById("bk-si-1-tr");
-var bksi1mc = document.getElementById("bk-si-1-mc");
-bksi1tr.onclick = function(){
-  bksi1m.style.display = "block";
-  bksi1mc.src = this.src;
-}
-// Get the <span> element that closes the modal
-var bksi1c = document.getElementById("bk-si-1-c");
-// When the user clicks on <span> (x), close the modal
-bksi1c.onclick = function() {
-  bksi1m.style.display = "none";
-}
-bksi1m.onclick = function() {
-  bksi1m.style.display = "none";
-}
 
 var bksi3m = document.getElementById("bk-si-3-m");
 var bksi3tr = document.getElementById("bk-si-3-tr");
