@@ -470,7 +470,7 @@ a:hover#contacttext2 {color: black;}
   margin-right: auto;
   display: block;
 }
-#ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr, #bk-awaas-9-tr {
+#ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr{
   width: 50%;
   height: auto;
   margin-left: auto;
@@ -927,7 +927,7 @@ max-width: 50%;
   margin-right: auto;
   display: block;
 }
-#ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr, #bk-awaas-9-tr {
+#ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr {
   width: 70%;
   height: auto;
   margin-left: auto;
