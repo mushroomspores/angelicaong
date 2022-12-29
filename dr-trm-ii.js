@@ -95,33 +95,3 @@ trmii6c.onclick = function() {
 trmii6m.onclick = function() {
   trmii6m.style.display = "none";
 }
-
-var trmii7m = document.getElementById("trm-ii-7-m");
-var trmii7tr = document.getElementById("trm-ii-7-tr");
-var trmii7mc = document.getElementById("trm-ii-7-mc");
-trmii7tr.onclick = function(){
-  trmii7m.style.display = "block";
-  trmii7mc.src = this.src;
-}
-var trmii7c = document.getElementById("trm-ii-7-c");
-trmii7c.onclick = function() {
-  trmii7m.style.display = "none";
-}
-trmii7m.onclick = function() {
-  trmii7m.style.display = "none";
-}
-
-var trmii8m = document.getElementById("trm-ii-8-m");
-var trmii8tr = document.getElementById("trm-ii-8-tr");
-var trmii8mc = document.getElementById("trm-ii-8-mc");
-trmii8tr.onclick = function(){
-  trmii8m.style.display = "block";
-  trmii8mc.src = this.src;
-}
-var trmii8c = document.getElementById("trm-ii-8-c");
-trmii8c.onclick = function() {
-  trmii8m.style.display = "none";
-}
-trmii8m.onclick = function() {
-  trmii8m.style.display = "none";
-}

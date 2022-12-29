@@ -466,13 +466,7 @@ a:hover#contacttext2 {color: black;}
   display: none;
 }
 .centretitle {text-align: center;}
-#trm-ii-1-tr, #trm-i-1-tr, #pn-thunder-1-tr, #mnwp-1-tr, #bk-si-1-tr, #bk-mt-1-tr {
-  width: 30%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
+
 #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr{
   width: 50%;
   height: auto;
@@ -923,13 +917,7 @@ max-width: 50%;
 #unt-tw-caption-middle {display: none;}
 #column-tianmu-spacer {display: none;}
 #tianmu-caption-middle {display: none;}
-#trm-ii-1-tr, #trm-i-1-tr, #pn-thunder-1-tr, #mnwp-1-tr, #bk-si-1-tr, #bk-mt-1-tr {
-  width: 50%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
+
 #ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr {
   width: 70%;
   height: auto;
