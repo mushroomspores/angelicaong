@@ -65,3 +65,33 @@ trmi4c.onclick = function() {
 trmi4m.onclick = function() {
   trmi4m.style.display = "none";
 }
+
+var trmi5m = document.getElementById("trm-i-5-m");
+var trmi5tr = document.getElementById("trm-i-5-tr");
+var trmi5mc = document.getElementById("trm-i-5-mc");
+trmi5tr.onclick = function(){
+  trmi5m.style.display = "block";
+  trmi5mc.src = this.src;
+}
+var trmi5c = document.getElementById("trm-i-5-c");
+trmi5c.onclick = function() {
+  trmi5m.style.display = "none";
+}
+trmi5m.onclick = function() {
+  trmi5m.style.display = "none";
+}
+
+var trmi6m = document.getElementById("trm-i-6-m");
+var trmi6tr = document.getElementById("trm-i-6-tr");
+var trmi6mc = document.getElementById("trm-i-6-mc");
+trmi6tr.onclick = function(){
+  trmi6m.style.display = "block";
+  trmi6mc.src = this.src;
+}
+var trmi6c = document.getElementById("trm-i-6-c");
+trmi6c.onclick = function() {
+  trmi6m.style.display = "none";
+}
+trmi6m.onclick = function() {
+  trmi6m.style.display = "none";
+}
