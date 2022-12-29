@@ -21,21 +21,6 @@ mnwp1m.onclick = function() {
   mnwp1m.style.display = "none";
 }
 
-var mnwp2m = document.getElementById("mnwp-2-m");
-var mnwp2tr = document.getElementById("mnwp-2-tr");
-var mnwp2mc = document.getElementById("mnwp-2-mc");
-mnwp2tr.onclick = function(){
-  mnwp2m.style.display = "block";
-  mnwp2mc.src = this.src;
-}
-var mnwp2c = document.getElementById("mnwp-2-c");
-mnwp2c.onclick = function() {
-  mnwp2m.style.display = "none";
-}
-mnwp2m.onclick = function() {
-  mnwp2m.style.display = "none";
-}
-
 var mnwp3m = document.getElementById("mnwp-3-m");
 var mnwp3tr = document.getElementById("mnwp-3-tr");
 var mnwp3mc = document.getElementById("mnwp-3-mc");
@@ -124,4 +109,19 @@ mnwp8c.onclick = function() {
 }
 mnwp8m.onclick = function() {
   mnwp8m.style.display = "none";
+}
+
+var mnwp2m = document.getElementById("mnwp-2-m");
+var mnwp2tr = document.getElementById("mnwp-2-tr");
+var mnwp2mc = document.getElementById("mnwp-2-mc");
+mnwp2tr.onclick = function(){
+  mnwp2m.style.display = "block";
+  mnwp2mc.src = this.src;
+}
+var mnwp2c = document.getElementById("mnwp-2-c");
+mnwp2c.onclick = function() {
+  mnwp2m.style.display = "none";
+}
+mnwp2m.onclick = function() {
+  mnwp2m.style.display = "none";
 }
