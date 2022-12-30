@@ -21,21 +21,6 @@ painting41m.onclick = function() {
   painting41m.style.display = "none";
 }
 
-var painting42m = document.getElementById("painting4-2-m");
-var painting42tr = document.getElementById("painting4-2-tr");
-var painting42mc = document.getElementById("painting4-2-mc");
-painting42tr.onclick = function(){
-  painting42m.style.display = "block";
-  painting42mc.src = this.src;
-}
-var painting42c = document.getElementById("painting4-2-c");
-painting42c.onclick = function() {
-  painting42m.style.display = "none";
-}
-painting42m.onclick = function() {
-  painting42m.style.display = "none";
-}
-
 var painting43m = document.getElementById("painting4-3-m");
 var painting43tr = document.getElementById("painting4-3-tr");
 var painting43mc = document.getElementById("painting4-3-mc");
@@ -50,22 +35,6 @@ painting43c.onclick = function() {
 painting43m.onclick = function() {
   painting43m.style.display = "none";
 }
-
-var painting44m = document.getElementById("painting4-4-m");
-var painting44tr = document.getElementById("painting4-4-tr");
-var painting44mc = document.getElementById("painting4-4-mc");
-painting44tr.onclick = function(){
-  painting44m.style.display = "block";
-  painting44mc.src = this.src;
-}
-var painting44c = document.getElementById("painting4-4-c");
-painting44c.onclick = function() {
-  painting44m.style.display = "none";
-}
-painting44m.onclick = function() {
-  painting44m.style.display = "none";
-}
-
 var painting451m = document.getElementById("painting4-5-1-m");
 var painting451tr = document.getElementById("painting4-5-1-tr");
 var painting451mc = document.getElementById("painting4-5-1-mc");
@@ -108,19 +77,4 @@ painting453c.onclick = function() {
 }
 painting453m.onclick = function() {
   painting453m.style.display = "none";
-}
-
-var painting46m = document.getElementById("painting4-6-m");
-var painting46tr = document.getElementById("painting4-6-tr");
-var painting46mc = document.getElementById("painting4-6-mc");
-painting46tr.onclick = function(){
-  painting46m.style.display = "block";
-  painting46mc.src = this.src;
-}
-var painting46c = document.getElementById("painting4-6-c");
-painting46c.onclick = function() {
-  painting46m.style.display = "none";
-}
-painting46m.onclick = function() {
-  painting46m.style.display = "none";
 }

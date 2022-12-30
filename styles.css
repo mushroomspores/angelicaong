@@ -467,14 +467,6 @@ a:hover#contacttext2 {color: black;}
 }
 .centretitle {text-align: center;}
 
-#ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr{
-  width: 50%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
 div.gallery {
   border: 0px solid grey;
 }
@@ -918,13 +910,6 @@ max-width: 50%;
 #column-tianmu-spacer {display: none;}
 #tianmu-caption-middle {display: none;}
 
-#ihc-macl-7-tr, #ihc-shp-1-tr, #painting4-1-tr {
-  width: 70%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
