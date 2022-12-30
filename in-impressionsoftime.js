@@ -81,21 +81,6 @@ iot5m.onclick = function() {
   iot5m.style.display = "none";
 }
 
-var iot6m = document.getElementById("iot-6-m");
-var iot6tr = document.getElementById("iot-6-tr");
-var iot6mc = document.getElementById("iot-6-mc");
-iot6tr.onclick = function(){
-  iot6m.style.display = "block";
-  iot6mc.src = this.src;
-}
-var iot6c = document.getElementById("iot-6-c");
-iot6c.onclick = function() {
-  iot6m.style.display = "none";
-}
-iot6m.onclick = function() {
-  iot6m.style.display = "none";
-}
-
 var iot7m = document.getElementById("iot-7-m");
 var iot7tr = document.getElementById("iot-7-tr");
 var iot7mc = document.getElementById("iot-7-mc");
