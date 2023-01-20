@@ -8,10 +8,8 @@ html {
 .slideshow-container {
   max-width: 1000px;
   position: absolute;
-  top: 14%;
-  margin: auto;
-  padding-left: 2%;
-  padding-right: 5.5%;
+  top: 4%;
+  margin: 5%;
 }
 
 /* Hide the images by default */
@@ -22,9 +20,9 @@ html {
 /* Slideshow fading animation */
 .fadeslow {
   -webkit-animation-name: fadeslow;
-  -webkit-animation-duration: 3.5s;
+  -webkit-animation-duration: 3s;
   animation-name: fadeslow;
-  animation-duration: 3.5s;
+  animation-duration: 3s;
 }
 
 @-webkit-keyframes fadeslow {
