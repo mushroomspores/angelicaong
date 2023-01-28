@@ -61,6 +61,7 @@ html {
     margin-bottom: 1em;
   }
   #navbar {display: none;}
+  .subnav-bk {display: none;}
   #landing-page-slideshow {
     display: block;
     position: absolute;
@@ -158,6 +159,18 @@ html {
   .dropdown-content a {
 
   }
+  .responsive {
+    display: none;
+  }
+  .responsive-mobile {
+    display: block;
+  }
+  #photo-galleries-mobile {
+    position: relative;
+  }
+  #laptop-break {
+    display: none;
+  }
 }
 
 /* mini laptop size */
@@ -211,6 +224,9 @@ html {
   }
   .dropdown-content a {
 
+  }
+  .responsive-mobile {
+    display: none;
   }
 }
 
@@ -302,6 +318,9 @@ html {
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+  .responsive-mobile {
+    display: none;
   }
 }
 /* end of size adjustments for fonts and header */
