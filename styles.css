@@ -64,10 +64,14 @@ html {
   .subnav-bk {display: none;}
   #landing-page-slideshow {
     display: block;
-    position: absolute;
-    top: 18%;
+    position: relative;
+    top: 0%;
     right: 1.5%;
   }
+  img.myslides-laptop {
+    display: none;
+  }
+  #landing-page-spacer {display: none;}
   /* Dropdown Button */
   .phonedropbtn {
     border: none;
@@ -173,7 +177,7 @@ html {
   }
 }
 
-/* mini laptop size */
+/* iPad size */
 @media only screen and (min-width: 701px) {
   #phone-menu {display: none;}
   #landing-page-slideshow {
@@ -186,6 +190,9 @@ html {
     font-family: 'Cormorant', serif;
     font-weight: 400;
     padding: 0;
+  }
+  img.myslides-laptop {
+    display: none;
   }
   small {
     color: grey;
@@ -246,6 +253,12 @@ html {
     position: fixed;
     margin-top: 5vh;
     margin-left: 1.5vw;
+  }
+  img.myslides-mobile {
+    display: none;
+  }
+  img.myslides-laptop {
+    display: block;
   }
   small {
     color: grey;
@@ -477,6 +490,8 @@ a:hover#contacttext2 {color: black;}
   .desktop-spacer {display: none;}
 }
 
+/*column size adjustments only (START)*/
+
 @media only screen and (max-width: 1000px) {
   #bookheaderspacer {display: none;}
   #veneer-bottom-spacer {display: none;}
@@ -545,6 +560,8 @@ a:hover#contacttext2 {color: black;}
   .col-l-11 {width: 91.66%;}
   .col-l-12 {width: 100%;}
 }
+
+/*column size adjustments only (END)*/
 
 #dropdownlist {
   display: none;
