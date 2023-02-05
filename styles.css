@@ -166,6 +166,9 @@ html {
   .responsive {
     display: none;
   }
+  .responsive-books {
+    display: none;
+  }
   .responsive-mobile {
     display: block;
   }
