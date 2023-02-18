@@ -163,10 +163,13 @@ html {
   .dropdown-content a {
 
   }
-  .responsive {
+  .column-painting3 {
     display: none;
   }
   .responsive-books {
+    display: none;
+  }
+  .row-int {
     display: none;
   }
   .responsive-mobile {
