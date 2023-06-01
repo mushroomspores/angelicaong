@@ -894,6 +894,26 @@ width: 100%;
 height: auto;
 }
 
+.row-one-v2 {
+display: flex;
+flex-wrap: wrap;
+padding: 0 1% 0 55%;
+}
+
+/* Create one column */
+.column-one-v2 {
+flex: 100%;
+max-width: 100%;
+padding: 0 4px;
+}
+
+.column-one-v2 img {
+margin-top: 10px;
+vertical-align: middle;
+width: 100%;
+height: auto;
+}
+
 img.ph-tr:hover {opacity: 0.7;}
 
 .row-vn {
