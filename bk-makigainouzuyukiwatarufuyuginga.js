@@ -1,0 +1,138 @@
+AOS.init({
+  duration: 900,
+})
+
+var makigai12m = document.getElementById("makigai-12-m");
+var makigai12tr = document.getElementById("makigai-12-tr");
+var makigai12mc = document.getElementById("makigai-12-mc");
+makigai12tr.onclick = function(){
+  makigai12m.style.display = "block";
+  makigai12mc.src = this.src;
+}
+var makigai12c = document.getElementById("makigai-12-c");
+makigai12c.onclick = function() {
+  makigai12m.style.display = "none";
+}
+makigai12m.onclick = function() {
+  makigai12m.style.display = "none";
+}
+
+var makigai3m = document.getElementById("makigai-3-m");
+var makigai3tr = document.getElementById("makigai-3-tr");
+var makigai3mc = document.getElementById("makigai-3-mc");
+makigai3tr.onclick = function(){
+  makigai3m.style.display = "block";
+  makigai3mc.src = this.src;
+}
+var makigai3c = document.getElementById("makigai-3-c");
+makigai3c.onclick = function() {
+  makigai3m.style.display = "none";
+}
+makigai3m.onclick = function() {
+  makigai3m.style.display = "none";
+}
+
+var makigai4m = document.getElementById("makigai-4-m");
+var makigai4tr = document.getElementById("makigai-4-tr");
+var makigai4mc = document.getElementById("makigai-4-mc");
+makigai4tr.onclick = function(){
+  makigai4m.style.display = "block";
+  makigai4mc.src = this.src;
+}
+var makigai4c = document.getElementById("makigai-4-c");
+makigai4c.onclick = function() {
+  makigai4m.style.display = "none";
+}
+makigai4m.onclick = function() {
+  makigai4m.style.display = "none";
+}
+
+var makigai5m = document.getElementById("makigai-5-m");
+var makigai5tr = document.getElementById("makigai-5-tr");
+var makigai5mc = document.getElementById("makigai-5-mc");
+makigai5tr.onclick = function(){
+  makigai5m.style.display = "block";
+  makigai5mc.src = this.src;
+}
+var makigai5c = document.getElementById("makigai-5-c");
+makigai5c.onclick = function() {
+  makigai5m.style.display = "none";
+}
+makigai5m.onclick = function() {
+  makigai5m.style.display = "none";
+}
+
+var makigai6m = document.getElementById("makigai-6-m");
+var makigai6tr = document.getElementById("makigai-6-tr");
+var makigai6mc = document.getElementById("makigai-6-mc");
+makigai6tr.onclick = function(){
+  makigai6m.style.display = "block";
+  makigai6mc.src = this.src;
+}
+var makigai6c = document.getElementById("makigai-6-c");
+makigai6c.onclick = function() {
+  makigai6m.style.display = "none";
+}
+makigai6m.onclick = function() {
+  makigai6m.style.display = "none";
+}
+
+var makigai8m = document.getElementById("makigai-8-m");
+var makigai8tr = document.getElementById("makigai-8-tr");
+var makigai8mc = document.getElementById("makigai-8-mc");
+makigai8tr.onclick = function(){
+  makigai8m.style.display = "block";
+  makigai8mc.src = this.src;
+}
+var makigai8c = document.getElementById("makigai-8-c");
+makigai8c.onclick = function() {
+  makigai8m.style.display = "none";
+}
+makigai8m.onclick = function() {
+  makigai8m.style.display = "none";
+}
+
+var makigai9m = document.getElementById("makigai-9-m");
+var makigai9tr = document.getElementById("makigai-9-tr");
+var makigai9mc = document.getElementById("makigai-9-mc");
+makigai9tr.onclick = function(){
+  makigai9m.style.display = "block";
+  makigai9mc.src = this.src;
+}
+var makigai9c = document.getElementById("makigai-9-c");
+makigai9c.onclick = function() {
+  makigai9m.style.display = "none";
+}
+makigai9m.onclick = function() {
+  makigai9m.style.display = "none";
+}
+
+var makigai10m = document.getElementById("makigai-10-m");
+var makigai10tr = document.getElementById("makigai-10-tr");
+var makigai10mc = document.getElementById("makigai-10-mc");
+makigai10tr.onclick = function(){
+  makigai10m.style.display = "block";
+  makigai10mc.src = this.src;
+}
+var makigai10c = document.getElementById("makigai-10-c");
+makigai10c.onclick = function() {
+  makigai10m.style.display = "none";
+}
+makigai10m.onclick = function() {
+  makigai10m.style.display = "none";
+}
+
+var makigai11m = document.getElementById("makigai-11-m");
+var makigai11tr = document.getElementById("makigai-11-tr");
+var makigai11mc = document.getElementById("makigai-11-mc");
+makigai11tr.onclick = function(){
+  makigai11m.style.display = "block";
+  makigai11mc.src = this.src;
+}
+var makigai11c = document.getElementById("makigai-11-c");
+makigai11c.onclick = function() {
+  makigai11m.style.display = "none";
+}
+makigai11m.onclick = function() {
+  makigai11m.style.display = "none";
+}
