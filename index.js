@@ -8,7 +8,7 @@ phoneDropbtn.addEventListener("click", myFunction);
 function myFunction() {
   var phoneDrop = document.getElementById("phone-droplist");
   var slideshow = document.getElementById("landing-page-slideshow")
-  if (phoneDrop.style.display === "none") {
+  if (phoneDrop.style.display == '' || phoneDrop.style.display == "none") {
     phoneDrop.style.display = "block";
     slideshow.style.display = "none";
   } else {
