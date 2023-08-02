@@ -163,6 +163,9 @@ html {
   .dropdown-content a {
 
   }
+  .responsive {
+    display: none;
+  }
   .column-painting3 {
     display: none;
   }
