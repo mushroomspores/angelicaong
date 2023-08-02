@@ -2,19 +2,19 @@ AOS.init({
   duration: 900,
 })
 
-var makigai12m = document.getElementById("makigai-12-m");
-var makigai12tr = document.getElementById("makigai-12-tr");
-var makigai12mc = document.getElementById("makigai-12-mc");
-makigai12tr.onclick = function(){
-  makigai12m.style.display = "block";
-  makigai12mc.src = this.src;
+var makigai1m = document.getElementById("makigai-1-m");
+var makigai1tr = document.getElementById("makigai-1-tr");
+var makigai1mc = document.getElementById("makigai-1-mc");
+makigai1tr.onclick = function(){
+  makigai1m.style.display = "block";
+  makigai1mc.src = this.src;
 }
-var makigai12c = document.getElementById("makigai-12-c");
-makigai12c.onclick = function() {
-  makigai12m.style.display = "none";
+var makigai1c = document.getElementById("makigai-1-c");
+makigai1c.onclick = function() {
+  makigai1m.style.display = "none";
 }
-makigai12m.onclick = function() {
-  makigai12m.style.display = "none";
+makigai1m.onclick = function() {
+  makigai1m.style.display = "none";
 }
 
 var makigai3m = document.getElementById("makigai-3-m");
@@ -45,21 +45,6 @@ makigai4c.onclick = function() {
 }
 makigai4m.onclick = function() {
   makigai4m.style.display = "none";
-}
-
-var makigai5m = document.getElementById("makigai-5-m");
-var makigai5tr = document.getElementById("makigai-5-tr");
-var makigai5mc = document.getElementById("makigai-5-mc");
-makigai5tr.onclick = function(){
-  makigai5m.style.display = "block";
-  makigai5mc.src = this.src;
-}
-var makigai5c = document.getElementById("makigai-5-c");
-makigai5c.onclick = function() {
-  makigai5m.style.display = "none";
-}
-makigai5m.onclick = function() {
-  makigai5m.style.display = "none";
 }
 
 var makigai6m = document.getElementById("makigai-6-m");
@@ -120,19 +105,4 @@ makigai10c.onclick = function() {
 }
 makigai10m.onclick = function() {
   makigai10m.style.display = "none";
-}
-
-var makigai11m = document.getElementById("makigai-11-m");
-var makigai11tr = document.getElementById("makigai-11-tr");
-var makigai11mc = document.getElementById("makigai-11-mc");
-makigai11tr.onclick = function(){
-  makigai11m.style.display = "block";
-  makigai11mc.src = this.src;
-}
-var makigai11c = document.getElementById("makigai-11-c");
-makigai11c.onclick = function() {
-  makigai11m.style.display = "none";
-}
-makigai11m.onclick = function() {
-  makigai11m.style.display = "none";
 }
