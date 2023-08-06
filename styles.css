@@ -359,6 +359,10 @@ html {
   .mobile-artwork-title{
     display: none;
   }
+  .cv-info {
+    margin-left: 50%;
+    width: 50%;
+  }
 }
 /* end of size adjustments for fonts and header */
 
