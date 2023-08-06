@@ -17,7 +17,6 @@ function myFunction() {
   }
 }
 
-
 var snkhb1m = document.getElementById("snk-hb-1-m");
 var snkhb1tr = document.getElementById("snk-hb-1-tr");
 var snkhb1mc = document.getElementById("snk-hb-1-mc");

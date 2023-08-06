@@ -2,6 +2,22 @@ AOS.init({
   duration: 900,
 })
 
+var phoneDropbtn = document.getElementById("phonedrop-btn")
+phoneDropbtn.addEventListener("click", myFunction);
+
+function myFunction() {
+  var phoneDrop = document.getElementById("phone-droplist");
+  var slideshow = document.getElementById("landing-page-slideshow")
+  if (phoneDrop.style.display == '' || phoneDrop.style.display == "none") {
+    phoneDrop.style.display = "block";
+    slideshow.style.display = "none";
+  } else {
+    phoneDrop.style.display = "none";
+    slideshow.style.display = "block";
+  }
+}
+
+
 var tenjitsu1m = document.getElementById("tenjitsu-1-m");
 var tenjitsu1tr = document.getElementById("tenjitsu-1-tr");
 var tenjitsu1mc = document.getElementById("tenjitsu-1-mc");

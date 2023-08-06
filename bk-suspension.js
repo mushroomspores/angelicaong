@@ -2,6 +2,21 @@ AOS.init({
   duration: 900,
 })
 
+var phoneDropbtn = document.getElementById("phonedrop-btn")
+phoneDropbtn.addEventListener("click", myFunction);
+
+function myFunction() {
+  var phoneDrop = document.getElementById("phone-droplist");
+  var slideshow = document.getElementById("landing-page-slideshow")
+  if (phoneDrop.style.display == '' || phoneDrop.style.display == "none") {
+    phoneDrop.style.display = "block";
+    slideshow.style.display = "none";
+  } else {
+    phoneDrop.style.display = "none";
+    slideshow.style.display = "block";
+  }
+}
+
 var suspension1m = document.getElementById("suspension-1-m");
 var suspension1tr = document.getElementById("suspension-1-tr");
 var suspension1mc = document.getElementById("suspension-1-mc");

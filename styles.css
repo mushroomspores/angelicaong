@@ -331,6 +331,15 @@ html {
   flex-wrap: wrap;
   padding: 0 1% 0 65%;
   }
+  .copyright-laptop {
+    position: fixed;
+    bottom: 0;
+    height: 7vh;
+    width: 50vw;
+    border: 0px
+    solid black;
+    padding-left: 4.5vw;
+  }
 }
 /* end of size adjustments for fonts and header */
 
