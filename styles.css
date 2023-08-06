@@ -126,7 +126,14 @@ html {
     font-weight: 300;
     line-height: 1.5;
   }
-   h2 {
+  h1 {
+    color: grey;
+    font-size: 3.8vw;
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    text-align: center;
+  }
+  h2 {
     color: black;
     font-size: 3.8vw;
     font-family: 'Cormorant', serif;
@@ -167,6 +174,9 @@ html {
     position: relative;
   }
   #laptop-break {
+    display: none;
+  }
+  .laptop-break {
     display: none;
   }
 }
@@ -224,6 +234,9 @@ html {
 
   }
   .responsive-mobile {
+    display: none;
+  }
+  .mobile-artwork-title{
     display: none;
   }
 }
@@ -339,6 +352,12 @@ html {
     border: 0px
     solid black;
     padding-left: 4.5vw;
+  }
+  .laptop-break {
+    display: block;
+  }
+  .mobile-artwork-title{
+    display: none;
   }
 }
 /* end of size adjustments for fonts and header */
