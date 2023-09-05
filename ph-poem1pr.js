@@ -2,6 +2,21 @@ AOS.init({
   duration: 900,
 })
 
+var phoneDropbtn = document.getElementById("phonedrop-btn")
+phoneDropbtn.addEventListener("click", myFunction);
+
+function myFunction() {
+  var phoneDrop = document.getElementById("phone-droplist");
+  var slideshow = document.getElementById("landing-page-slideshow")
+  if (phoneDrop.style.display == '' || phoneDrop.style.display == "none") {
+    phoneDrop.style.display = "block";
+    slideshow.style.display = "none";
+  } else {
+    phoneDrop.style.display = "none";
+    slideshow.style.display = "block";
+  }
+}
+
 var p1pr1m = document.getElementById("p1pr-1-m");
 var p1pr1tr = document.getElementById("p1pr-1-tr");
 var p1pr1mc = document.getElementById("p1pr-1-mc");
@@ -86,4 +101,90 @@ p1pr4tr.addEventListener("mouseover", function() {
 })
 p1pr4tr.addEventListener("mouseout", function() {
   p1pr4tr.style.opacity = 1.0 ;
+})
+
+var p1prm1m = document.getElementById("p1pr-m-1-m");
+var p1prm1tr = document.getElementById("p1pr-m-1-tr");
+var p1prm1mc = document.getElementById("p1pr-m-1-mc");
+p1prm1tr.onclick = function(){
+  p1prm1m.style.display = "block";
+  p1prm1mc.src = this.src;
+}
+var p1prm1c = document.getElementById("p1pr-m-1-c");
+p1prm1c.onclick = function() {
+  p1prm1m.style.display = "none";
+}
+p1prm1m.onclick = function() {
+  p1prm1m.style.display = "none";
+}
+p1prm1tr.addEventListener("mouseover", function() {
+  p1prm1tr.style.opacity = 0.7 ;
+})
+p1prm1tr.addEventListener("mouseout", function() {
+  p1prm1tr.style.opacity = 1.0 ;
+})
+
+var p1prm2m = document.getElementById("p1pr-m-2-m");
+var p1prm2tr = document.getElementById("p1pr-m-2-tr");
+var p1prm2mc = document.getElementById("p1pr-m-2-mc");
+p1prm2tr.onclick = function(){
+  p1prm2m.style.display = "block";
+  p1prm2mc.src = this.src;
+}
+var p1prm2c = document.getElementById("p1pr-m-2-c");
+p1prm2c.onclick = function() {
+  p1prm2m.style.display = "none";
+}
+p1prm2m.onclick = function() {
+  p1prm2m.style.display = "none";
+}
+p1prm2tr.addEventListener("mouseover", function() {
+  p1prm2tr.style.opacity = 0.7 ;
+})
+p1prm2tr.addEventListener("mouseout", function() {
+  p1prm2tr.style.opacity = 1.0 ;
+})
+
+
+var p1prm3m = document.getElementById("p1pr-m-3-m");
+var p1prm3tr = document.getElementById("p1pr-m-3-tr");
+var p1prm3mc = document.getElementById("p1pr-m-3-mc");
+p1prm3tr.onclick = function(){
+  p1prm3m.style.display = "block";
+  p1prm3mc.src = photographyimages/poem1pr/poem1pr-diptych-1-1-2021-angelicoang.png.src;
+}
+var p1prm3c = document.getElementById("p1pr-m-3-c");
+p1prm3c.onclick = function() {
+  p1prm3m.style.display = "none";
+}
+p1prm3m.onclick = function() {
+  p1prm3m.style.display = "none";
+}
+p1prm3tr.addEventListener("mouseover", function() {
+  p1prm3tr.style.opacity = 0.7 ;
+})
+p1prm3tr.addEventListener("mouseout", function() {
+  p1prm3tr.style.opacity = 1.0 ;
+})
+
+
+var p1prm4m = document.getElementById("p1pr-m-4-m");
+var p1prm4tr = document.getElementById("p1pr-m-4-tr");
+var p1prm4mc = document.getElementById("p1pr-m-4-mc");
+p1prm4tr.onclick = function(){
+  p1prm4m.style.display = "block";
+  p1prm4mc.src = photographyimages/poem1pr/poem1pr-diptych-1-1-2021-angelicoang.png.src;
+}
+var p1prm4c = document.getElementById("p1pr-m-4-c");
+p1prm4c.onclick = function() {
+  p1prm4m.style.display = "none";
+}
+p1prm4m.onclick = function() {
+  p1prm4m.style.display = "none";
+}
+p1prm4tr.addEventListener("mouseover", function() {
+  p1prm4tr.style.opacity = 0.7 ;
+})
+p1prm4tr.addEventListener("mouseout", function() {
+  p1prm4tr.style.opacity = 1.0 ;
 })

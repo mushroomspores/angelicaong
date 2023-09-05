@@ -165,10 +165,13 @@ html {
   .responsive-books {
     display: none;
   }
-  .row-int {
+  .responsive-mobile {
+    display: block;
+  }
+  .image-grid-laptop {
     display: none;
   }
-  .responsive-mobile {
+  .image-grid-mobile {
     display: block;
   }
   #photo-galleries-mobile {
@@ -235,6 +238,12 @@ html {
 
   }
   .responsive-mobile {
+    display: none;
+  }
+  .image-grid-laptop {
+    display: block;
+  }
+  .image-grid-mobile {
     display: none;
   }
   .mobile-artwork-title{
