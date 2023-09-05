@@ -1,6 +1,22 @@
 AOS.init({
   duration: 900,
 })
+
+var phoneDropbtn = document.getElementById("phonedrop-btn")
+phoneDropbtn.addEventListener("click", myFunction);
+
+function myFunction() {
+  var phoneDrop = document.getElementById("phone-droplist");
+  var slideshow = document.getElementById("landing-page-slideshow")
+  if (phoneDrop.style.display == '' || phoneDrop.style.display == "none") {
+    phoneDrop.style.display = "block";
+    slideshow.style.display = "none";
+  } else {
+    phoneDrop.style.display = "none";
+    slideshow.style.display = "block";
+  }
+}
+
 // js script for painting.html
 var painting2m = document.getElementById("painting2-m");
 var painting2tr = document.getElementById("painting2-tr");
@@ -45,4 +61,49 @@ untpgc.onclick = function() {
 }
 untpgm.onclick = function() {
   untpgm.style.display = "none";
+}
+
+var painting2mm = document.getElementById("painting2-m-m");
+var painting2mtr = document.getElementById("painting2-m-tr");
+var painting2mmc = document.getElementById("painting2-m-mc");
+painting2mtr.onclick = function(){
+  painting2mm.style.display = "block";
+  painting2mmc.src = paintingimages.jpg.src;
+}
+  var painting2mc = document.getElementById("painting2-m-c");
+painting2mc.onclick = function() {
+  painting2mm.style.display = "none";
+}
+painting2mm.onclick = function() {
+  painting2mm.style.display = "none";
+}
+
+var painting1mm = document.getElementById("painting1-m-m");
+var painting1mtr = document.getElementById("painting1-m-tr");
+var painting1mmc = document.getElementById("painting1-m-mc");
+painting1mtr.onclick = function(){
+  painting1mm.style.display = "block";
+  painting1mmc.src = paintingimages.jpg.src;
+}
+  var painting1mc = document.getElementById("painting1-m-c");
+painting1mc.onclick = function() {
+  painting1mm.style.display = "none";
+}
+painting1mm.onclick = function() {
+  painting1mm.style.display = "none";
+}
+
+var untpgmm = document.getElementById("unt-pg-m-m");
+var untpgmtr = document.getElementById("unt-pg-m-tr");
+var untpgmmc = document.getElementById("unt-pg-m-mc");
+untpgmtr.onclick = function(){
+  untpgmm.style.display = "block";
+  untpgmmc.src = paintingimages.jpg.src;
+}
+  var untpgmc = document.getElementById("unt-pg-m-c");
+untpgmc.onclick = function() {
+  untpgmm.style.display = "none";
+}
+untpgmm.onclick = function() {
+  untpgmm.style.display = "none";
 }
