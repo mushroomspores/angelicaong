@@ -91,3 +91,33 @@ qifust5c.onclick = function() {
 qifust5m.onclick = function() {
   qifust5m.style.display = "none";
 }
+
+var qifust6m = document.getElementById("qifust-6-m");
+var qifust6tr = document.getElementById("qifust-6-tr");
+var qifust6mc = document.getElementById("qifust-6-mc");
+qifust6tr.onclick = function(){
+  qifust6m.style.display = "block";
+  qifust6mc.src = this.src;
+}
+var qifust6c = document.getElementById("qifust-6-c");
+qifust6c.onclick = function() {
+  qifust6m.style.display = "none";
+}
+qifust6m.onclick = function() {
+  qifust6m.style.display = "none";
+}
+
+var qifust7m = document.getElementById("qifust-7-m");
+var qifust7tr = document.getElementById("qifust-7-tr");
+var qifust7mc = document.getElementById("qifust-7-mc");
+qifust7tr.onclick = function(){
+  qifust7m.style.display = "block";
+  qifust7mc.src = this.src;
+}
+var qifust7c = document.getElementById("qifust-7-c");
+qifust7c.onclick = function() {
+  qifust7m.style.display = "none";
+}
+qifust7m.onclick = function() {
+  qifust7m.style.display = "none";
+}
