@@ -241,21 +241,7 @@ html {
     font-weight: 300;
     line-height: 1.4;
   }
-  li {
 
-  }
-  li a, .dropbtn {
-
-  }
-  li.dropdown {
-
-  }
-  .dropdown-content {
-
-  }
-  .dropdown-content a {
-
-  }
   .responsive-mobile {
     display: none;
   }
@@ -479,17 +465,6 @@ a:link#watercolourbtn-w {text-decoration: none; color: black;}
 a:visited#watercolourbtn-w {color: black;}
 a:hover#watercolourbtn-w {color: grey;}
 
-.subnav:hover {
-  {display: block;}
-  li a.active {color: black;}
-  li a:hover:not(.active) {color: grey;}
-}
-.subnav-bk:hover {
-  {display: block;}
-  li a.active {color: black;}
-  li a:hover:not(.active) {color: grey;}
-}
-
 a.subsubnav:link {text-decoration: none; color: grey;}
 a.subsubnav:visited {color: grey;}
 a.subsubnav:hover {color: black;}
@@ -497,18 +472,6 @@ a.subsubnav:hover {color: black;}
 a.subnav-bk:link {text-decoration: none; color: grey;}
 a.subnav-bk:visited {color: grey;}
 a.subnav-bk:hover {color: black;}
-
-.subsubnav:hover {
-  {display: block;}
-  li a.active {color: black;}
-  li a:hover:not(.active) {color: grey;}
-  }
-
-.subnav-bk:hover {
-  {display: block;}
-  li a.active {color: black;}
-  li a:hover:not(.active) {color: grey;}
-  }
 
 a:link#header {text-decoration: none; color: black;}
 a:visited#header {color: black;}
