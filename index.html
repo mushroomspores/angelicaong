@@ -12,6 +12,27 @@
     <meta name="og:title" content="Angelica Ong | Art">
     <meta name="og:image" content="icon.png">
     <meta name="og:site_name" content="Angelica Ong | Art">
+    <style>/* Next & previous buttons */
+      .next {
+        cursor: e-resize;
+        position: absolute;
+        top: -2%;
+        width: auto;
+        padding: 50%;
+        margin: 10px;
+        color: transparent;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }</style>
     <script defer src="index.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -72,6 +93,8 @@
         <!-- Slideshow container -->
         <div class="slideshow-container" id="slideshow-container-laptop" style="border: 0px solid grey;">
 
+          
+
           <!-- Full-width images -->
           <!-- Gallery image 1 -->
           <div class="mySlides fadeslow">
@@ -111,7 +134,7 @@
           </div>
 
           <div class="mySlides fadeslow">
-            <a href="https://angelicaong.art/bk-shimonokoe.html">
+            <a href="https://angelicaong.art/bk-shimonokoe-heavenlybodies.html">
               <!-- Laptop image, shimo no koe -->
               <img class="myslides-laptop" src="landing-page-gallery/shimonokoe-heavenlybodies-2023-20.3x25.4x0.6cm-angelicaong-13.png" style="width:100%">
               <!-- Mobile image, shimo no koe -->
@@ -191,6 +214,7 @@
             </a>
           </div>
 
+          <a class="next" onclick="plusSlides(1)">❯</a>
 
         </div>
       </div>
