@@ -1090,7 +1090,7 @@ max-width: 100%;
 }
 
 /* NOTE: site-wide animations */
-.centretitle, #navbar, #subnavbar, #header, #cvexhibitions, #cveducation, #contact {animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.header-animation, .centretitle, .navbar-animation, #subnavbar, #cvexhibitions, #cveducation, #contact {animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:1}}
 
 /* Fading animation for .subsubnav */
 .fadeintoleft {
