@@ -316,4 +316,123 @@ AOS.init({
   exhbtwslowoctaves20m.onclick = function() {
     exhbtwslowoctaves20m.style.display = "none";
   }
+
+  var exhbtwslowoctaves21m = document.getElementById("exh-btwslowoctaves-21-m");
+  var exhbtwslowoctaves21tr = document.getElementById("exh-btwslowoctaves-21-tr");
+  var exhbtwslowoctaves21mc = document.getElementById("exh-btwslowoctaves-21-mc");
+  exhbtwslowoctaves21tr.onclick = function(){
+    exhbtwslowoctaves21m.style.display = "block";
+    exhbtwslowoctaves21mc.src = this.src;
+  }
+  var exhbtwslowoctaves21c = document.getElementById("exh-btwslowoctaves-21-c");
+  exhbtwslowoctaves21c.onclick = function() {
+    exhbtwslowoctaves21m.style.display = "none";
+  }
+  exhbtwslowoctaves21m.onclick = function() {
+    exhbtwslowoctaves21m.style.display = "none";
+  }
+
+  var exhbtwslowoctaves22m = document.getElementById("exh-btwslowoctaves-22-m");
+  var exhbtwslowoctaves22tr = document.getElementById("exh-btwslowoctaves-22-tr");
+  var exhbtwslowoctaves22mc = document.getElementById("exh-btwslowoctaves-22-mc");
+  exhbtwslowoctaves22tr.onclick = function(){
+    exhbtwslowoctaves22m.style.display = "block";
+    exhbtwslowoctaves22mc.src = this.src;
+  }
+  var exhbtwslowoctaves22c = document.getElementById("exh-btwslowoctaves-22-c");
+  exhbtwslowoctaves22c.onclick = function() {
+    exhbtwslowoctaves22m.style.display = "none";
+  }
+  exhbtwslowoctaves22m.onclick = function() {
+    exhbtwslowoctaves22m.style.display = "none";
+  }
   
+  var exhbtwslowoctaves23m = document.getElementById("exh-btwslowoctaves-23-m");
+  var exhbtwslowoctaves23tr = document.getElementById("exh-btwslowoctaves-23-tr");
+  var exhbtwslowoctaves23mc = document.getElementById("exh-btwslowoctaves-23-mc");
+  exhbtwslowoctaves23tr.onclick = function(){
+    exhbtwslowoctaves23m.style.display = "block";
+    exhbtwslowoctaves23mc.src = this.src;
+  }
+  var exhbtwslowoctaves23c = document.getElementById("exh-btwslowoctaves-23-c");
+  exhbtwslowoctaves23c.onclick = function() {
+    exhbtwslowoctaves23m.style.display = "none";
+  }
+  exhbtwslowoctaves23m.onclick = function() {
+    exhbtwslowoctaves23m.style.display = "none";
+  }
+
+  var exhbtwslowoctaves24m = document.getElementById("exh-btwslowoctaves-24-m");
+  var exhbtwslowoctaves24tr = document.getElementById("exh-btwslowoctaves-24-tr");
+  var exhbtwslowoctaves24mc = document.getElementById("exh-btwslowoctaves-24-mc");
+  exhbtwslowoctaves24tr.onclick = function(){
+    exhbtwslowoctaves24m.style.display = "block";
+    exhbtwslowoctaves24mc.src = this.src;
+  }
+  var exhbtwslowoctaves24c = document.getElementById("exh-btwslowoctaves-24-c");
+  exhbtwslowoctaves24c.onclick = function() {
+    exhbtwslowoctaves24m.style.display = "none";
+  }
+  exhbtwslowoctaves24m.onclick = function() {
+    exhbtwslowoctaves24m.style.display = "none";
+  }
+
+  var exhbtwslowoctaves25m = document.getElementById("exh-btwslowoctaves-25-m");
+  var exhbtwslowoctaves25tr = document.getElementById("exh-btwslowoctaves-25-tr");
+  var exhbtwslowoctaves25mc = document.getElementById("exh-btwslowoctaves-25-mc");
+  exhbtwslowoctaves25tr.onclick = function(){
+    exhbtwslowoctaves25m.style.display = "block";
+    exhbtwslowoctaves25mc.src = this.src;
+  }
+  var exhbtwslowoctaves25c = document.getElementById("exh-btwslowoctaves-25-c");
+  exhbtwslowoctaves25c.onclick = function() {
+    exhbtwslowoctaves25m.style.display = "none";
+  }
+  exhbtwslowoctaves25m.onclick = function() {
+    exhbtwslowoctaves25m.style.display = "none";
+  }
+
+  var exhbtwslowoctaves26m = document.getElementById("exh-btwslowoctaves-26-m");
+  var exhbtwslowoctaves26tr = document.getElementById("exh-btwslowoctaves-26-tr");
+  var exhbtwslowoctaves26mc = document.getElementById("exh-btwslowoctaves-26-mc");
+  exhbtwslowoctaves26tr.onclick = function(){
+    exhbtwslowoctaves26m.style.display = "block";
+    exhbtwslowoctaves26mc.src = this.src;
+  }
+  var exhbtwslowoctaves26c = document.getElementById("exh-btwslowoctaves-26-c");
+  exhbtwslowoctaves26c.onclick = function() {
+    exhbtwslowoctaves26m.style.display = "none";
+  }
+  exhbtwslowoctaves26m.onclick = function() {
+    exhbtwslowoctaves26m.style.display = "none";
+  }
+
+  var exhbtwslowoctaves27m = document.getElementById("exh-btwslowoctaves-27-m");
+  var exhbtwslowoctaves27tr = document.getElementById("exh-btwslowoctaves-27-tr");
+  var exhbtwslowoctaves27mc = document.getElementById("exh-btwslowoctaves-27-mc");
+  exhbtwslowoctaves27tr.onclick = function(){
+    exhbtwslowoctaves27m.style.display = "block";
+    exhbtwslowoctaves27mc.src = this.src;
+  }
+  var exhbtwslowoctaves27c = document.getElementById("exh-btwslowoctaves-27-c");
+  exhbtwslowoctaves27c.onclick = function() {
+    exhbtwslowoctaves27m.style.display = "none";
+  }
+  exhbtwslowoctaves27m.onclick = function() {
+    exhbtwslowoctaves27m.style.display = "none";
+  }
+
+  var exhbtwslowoctaves28m = document.getElementById("exh-btwslowoctaves-28-m");
+  var exhbtwslowoctaves28tr = document.getElementById("exh-btwslowoctaves-28-tr");
+  var exhbtwslowoctaves28mc = document.getElementById("exh-btwslowoctaves-28-mc");
+  exhbtwslowoctaves28tr.onclick = function(){
+    exhbtwslowoctaves28m.style.display = "block";
+    exhbtwslowoctaves28mc.src = this.src;
+  }
+  var exhbtwslowoctaves28c = document.getElementById("exh-btwslowoctaves-28-c");
+  exhbtwslowoctaves28c.onclick = function() {
+    exhbtwslowoctaves28m.style.display = "none";
+  }
+  exhbtwslowoctaves28m.onclick = function() {
+    exhbtwslowoctaves28m.style.display = "none";
+  }
